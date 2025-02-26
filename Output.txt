@@ -1,0 +1,189 @@
+Loading and preprocessing documents...
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Extracting text from file
+Loaded 56 documents from bbc_articles
+
+Building inverted index and calculating TF-IDF scores...
+Top 10 terms in the inverted index:
+==================================================
+Term                 Doc Count  Documents
+--------------------------------------------------
+link                 56         [0, 1, 2, 3, 4]...
+ago                  56         [0, 1, 2, 3, 4]...
+site                 56         [0, 1, 2, 3, 4]...
+bbc                  56         [0, 1, 2, 3, 4]...
+info                 56         [0, 1, 2, 3, 4]...
+help                 56         [0, 1, 2, 3, 4]...
+reserv               56         [0, 1, 2, 3, 4]...
+ﬁle                  56         [0, 1, 2, 3, 4]...
+advertis             56         [0, 1, 2, 3, 4]...
+content              56         [0, 1, 2, 3, 4]...
+
+Calculating document similarity matrix...
+
+Most similar documents to innovation_innovation_news_10.pdf:
+1. innovation_innovation_news_8.pdf (Similarity: 0.1443)
+2. business_business_news_12.pdf (Similarity: 0.1443)
+3. innovation_innovation_news_5.pdf (Similarity: 0.1309)
+4. technology_technology_news_5.pdf (Similarity: 0.1309)
+5. arts_arts_news_4.pdf (Similarity: 0.1235)
+
+Testing search functionality...
+
+Search Query: 'technology and artificial intelligence'
+Found 30 matching documents.
+================================================================================
+Rank 1: innovation_innovation_news_9.pdf [Category: innovation]
+Similarity Score: 0.0653
+Snippet: Apple commits to $500bn US investment 1 day ago Natalie Sherman Business reporter, BBC News Getty Images Apple plans to invest more than $500bn (£396b...
+--------------------------------------------------------------------------------
+Rank 2: innovation_innovation_news_1.pdf [Category: innovation]
+Similarity Score: 0.0627
+Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
+--------------------------------------------------------------------------------
+Rank 3: technology_technology_news_0.pdf [Category: technology]
+Similarity Score: 0.0627
+Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
+--------------------------------------------------------------------------------
+Rank 4: business_business_news_2.pdf [Category: business]
+Similarity Score: 0.0627
+Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
+--------------------------------------------------------------------------------
+Rank 5: innovation_innovation_news_8.pdf [Category: innovation]
+Similarity Score: 0.0546
+Snippet: Major Asia bank to cut 4,000 roles as AI replaces humans 1 day ago Peter Hoskins Business reporter Getty Images Singapore's biggest bank, DBS, says it...
+--------------------------------------------------------------------------------
+
+Search Query: 'business news and economy'
+Found 45 matching documents.
+================================================================================
+Rank 1: business_business_news_1.pdf [Category: business]
+Similarity Score: 0.0717
+Snippet: Billion Indians have no spending money - report 15 hours ago Nikhil Inamdar, BBC News, Mumbai @Nik_inamdar Getty Images From ceiling fans to jewellery...
+--------------------------------------------------------------------------------
+Rank 2: innovation_innovation_news_9.pdf [Category: innovation]
+Similarity Score: 0.0382
+Snippet: Apple commits to $500bn US investment 1 day ago Natalie Sherman Business reporter, BBC News Getty Images Apple plans to invest more than $500bn (£396b...
+--------------------------------------------------------------------------------
+Rank 3: business_business_news_10.pdf [Category: business]
+Similarity Score: 0.0324
+Snippet: Trump orders copper probe in first step to tariffs 15 hours ago Natalie Sherman BBC News Getty Images US President Donald Trump has ordered an investi...
+--------------------------------------------------------------------------------
+Rank 4: technology_technology_news_10.pdf [Category: technology]
+Similarity Score: 0.0298
+Snippet: Historic visual effects studio Technicolor collapses in UK 2 days ago Chris Vallance & Tom Gerken BBC News Getty Images Technicolor, the visual effect...
+--------------------------------------------------------------------------------
+Rank 5: business_business_news_3.pdf [Category: business]
+Similarity Score: 0.0261
+Snippet: BP shuns renewables in return to oil and gas 50 minutes ago Simon Jack and Faarea Masud Business editor and business reporter, BBC News Getty Images B...
+--------------------------------------------------------------------------------
+
+Search Query: 'travel destinations in Europe'
+Found 27 matching documents.
+================================================================================
+Rank 1: travel_travel_news_3.pdf [Category: travel]
+Similarity Score: 0.1793
+Snippet: Digital travel permit to be introduced in late 2025 1 day ago Ashlea Tracey BBC News, Isle of Man Manx Scenes The schem e m irrors the system introduc...
+--------------------------------------------------------------------------------
+Rank 2: travel_travel_news_4.pdf [Category: travel]
+Similarity Score: 0.0398
+Snippet: The over-50s flying high after airline appeal 1 day ago Jody Sabral BBC News, South East Jody Sabral/BBC Race Welch, a retired grandfather, has joined...
+--------------------------------------------------------------------------------
+Rank 3: business_business_news_10.pdf [Category: business]
+Similarity Score: 0.0205
+Snippet: Trump orders copper probe in first step to tariffs 15 hours ago Natalie Sherman BBC News Getty Images US President Donald Trump has ordered an investi...
+--------------------------------------------------------------------------------
+Rank 4: travel_travel_news_0.pdf [Category: travel]
+Similarity Score: 0.0191
+Snippet: Farm landing strip has planning exemption refused 1 hour ago Trevor Bevins Local Democracy Reporting Service Court Farm Dorset Council refused to gran...
+--------------------------------------------------------------------------------
+Rank 5: arts_arts_news_2.pdf [Category: arts]
+Similarity Score: 0.0171
+Snippet: Sites sought for Ukranian bombed door sculpture 3 hours ago Robert Marshall The mangled front door from a destroyed house in eastern Ukraine has a gap...
+--------------------------------------------------------------------------------
+
+Search Query: 'art exhibitions and culture'
+Found 21 matching documents.
+================================================================================
+Rank 1: arts_arts_news_3.pdf [Category: arts]
+Similarity Score: 0.3911
+Snippet: Abuse survivors' art is 'relief from a monster' 6 hours ago Sophie Parker BBC News, Wiltshire Wiltshire Council The exhibition has work on display fro...
+--------------------------------------------------------------------------------
+Rank 2: arts_arts_news_0.pdf [Category: arts]
+Similarity Score: 0.1904
+Snippet: £50k reward for 'great' artist Orlik's missing works 18 February 2025 Sophie Parker BBC News, Wiltshire Henry OrlikHomeNewsSportBusinessInnovationCult...
+--------------------------------------------------------------------------------
+Rank 3: arts_arts_news_8.pdf [Category: arts]
+Similarity Score: 0.1793
+Snippet: Westminster visit to highlight city's culture 1 day ago PA Media Hull was the UK City of Culture in 2017 Delegates from Hull are appearing at an event...
+--------------------------------------------------------------------------------
+Rank 4: arts_arts_news_4.pdf [Category: arts]
+Similarity Score: 0.0380
+Snippet: Keith Flint mural to be restored to former glory 21 hours ago George King BBC News, Essex Jaime Bunting Photography The Keith Flint mural at Braintree...
+--------------------------------------------------------------------------------
+Rank 5: arts_arts_news_2.pdf [Category: arts]
+Similarity Score: 0.0363
+Snippet: Sites sought for Ukranian bombed door sculpture 3 hours ago Robert Marshall The mangled front door from a destroyed house in eastern Ukraine has a gap...
+--------------------------------------------------------------------------------
+
+Evaluating search performance...
+Search System Performance Evaluation
+==================================================
+Average Precision: 0.0000
+Average Recall: 0.0000
+Average F1 Score: 0.0000
+Mean Average Precision (MAP): 0.0000
