@@ -1,60 +1,60 @@
 Loading and preprocessing documents...
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
-Extracting text from file
+Extracting text from file:  bbc_articles/innovation/innovation_news_10.pdf
+Extracting text from file:  bbc_articles/innovation/innovation_news_8.pdf
+Extracting text from file:  bbc_articles/innovation/innovation_news_9.pdf
+Extracting text from file:  bbc_articles/innovation/innovation_news_4.pdf
+Extracting text from file:  bbc_articles/innovation/innovation_news_5.pdf
+Extracting text from file:  bbc_articles/innovation/innovation_news_7.pdf
+Extracting text from file:  bbc_articles/innovation/innovation_news_6.pdf
+Extracting text from file:  bbc_articles/innovation/innovation_news_2.pdf
+Extracting text from file:  bbc_articles/innovation/innovation_news_3.pdf
+Extracting text from file:  bbc_articles/innovation/innovation_news_1.pdf
+Extracting text from file:  bbc_articles/innovation/innovation_news_0.pdf
+Extracting text from file:  bbc_articles/arts/arts_news_0.pdf
+Extracting text from file:  bbc_articles/arts/arts_news_1.pdf
+Extracting text from file:  bbc_articles/arts/arts_news_3.pdf
+Extracting text from file:  bbc_articles/arts/arts_news_2.pdf
+Extracting text from file:  bbc_articles/arts/arts_news_6.pdf
+Extracting text from file:  bbc_articles/arts/arts_news_7.pdf
+Extracting text from file:  bbc_articles/arts/arts_news_5.pdf
+Extracting text from file:  bbc_articles/arts/arts_news_4.pdf
+Extracting text from file:  bbc_articles/arts/arts_news_9.pdf
+Extracting text from file:  bbc_articles/arts/arts_news_8.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_5.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_4.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_14.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_6.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_7.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_3.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_13.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_12.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_2.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_10.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_0.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_1.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_11.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_9.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_8.pdf
+Extracting text from file:  bbc_articles/business/business_news_9.pdf
+Extracting text from file:  bbc_articles/business/business_news_8.pdf
+Extracting text from file:  bbc_articles/business/business_news_3.pdf
+Extracting text from file:  bbc_articles/business/business_news_2.pdf
+Extracting text from file:  bbc_articles/business/business_news_0.pdf
+Extracting text from file:  bbc_articles/business/business_news_1.pdf
+Extracting text from file:  bbc_articles/business/business_news_5.pdf
+Extracting text from file:  bbc_articles/business/business_news_4.pdf
+Extracting text from file:  bbc_articles/business/business_news_6.pdf
+Extracting text from file:  bbc_articles/business/business_news_7.pdf
+Extracting text from file:  bbc_articles/business/business_news_13.pdf
+Extracting text from file:  bbc_articles/business/business_news_12.pdf
+Extracting text from file:  bbc_articles/business/business_news_10.pdf
+Extracting text from file:  bbc_articles/business/business_news_11.pdf
+Extracting text from file:  bbc_articles/business/business_news_14.pdf
+Extracting text from file:  bbc_articles/travel/travel_news_0.pdf
+Extracting text from file:  bbc_articles/travel/travel_news_1.pdf
+Extracting text from file:  bbc_articles/travel/travel_news_3.pdf
+Extracting text from file:  bbc_articles/travel/travel_news_2.pdf
+Extracting text from file:  bbc_articles/travel/travel_news_4.pdf
 Loaded 56 documents from bbc_articles
 
 Building inverted index and calculating TF-IDF scores...
@@ -62,64 +62,43 @@ Top 10 terms in the inverted index:
 ==================================================
 Term                 Doc Count  Documents
 --------------------------------------------------
+sell                 56         [0, 1, 2, 3, 4]...
+read                 56         [0, 1, 2, 3, 4]...
+extern               56         [0, 1, 2, 3, 4]...
+privaci              56         [0, 1, 2, 3, 4]...
+share                56         [0, 1, 2, 3, 4]...
 link                 56         [0, 1, 2, 3, 4]...
-ago                  56         [0, 1, 2, 3, 4]...
-site                 56         [0, 1, 2, 3, 4]...
-bbc                  56         [0, 1, 2, 3, 4]...
-info                 56         [0, 1, 2, 3, 4]...
 help                 56         [0, 1, 2, 3, 4]...
-reserv               56         [0, 1, 2, 3, 4]...
-ﬁle                  56         [0, 1, 2, 3, 4]...
-advertis             56         [0, 1, 2, 3, 4]...
-content              56         [0, 1, 2, 3, 4]...
+info                 56         [0, 1, 2, 3, 4]...
+ago                  56         [0, 1, 2, 3, 4]...
+term                 56         [0, 1, 2, 3, 4]...
 
 Calculating document similarity matrix...
 
-Most similar documents to innovation_innovation_news_10.pdf:
-1. innovation_innovation_news_8.pdf (Similarity: 0.1443)
-2. business_business_news_12.pdf (Similarity: 0.1443)
-3. innovation_innovation_news_5.pdf (Similarity: 0.1309)
-4. technology_technology_news_5.pdf (Similarity: 0.1309)
-5. arts_arts_news_4.pdf (Similarity: 0.1235)
+Most similar documents to innovation/innovation_news_10.pdf:
+1. innovation/innovation_news_8.pdf (Similarity: 0.1443)
+2. business/business_news_12.pdf (Similarity: 0.1443)
+3. innovation/innovation_news_5.pdf (Similarity: 0.1309)
+4. technology/technology_news_5.pdf (Similarity: 0.1309)
+5. arts/arts_news_4.pdf (Similarity: 0.1235)
 
 Testing search functionality...
 
-Search Query: 'elon musk'
-Found 6 matching documents.
-================================================================================
-Rank 1: business_business_news_7.pdf [Category: business]
-Similarity Score: 0.3498
-Snippet: Who is Doge's official leader? White House says it's not Musk 14 hours ago Kayla Epstein Reuters On Monday afternoon, a federal judge had a simple que...
---------------------------------------------------------------------------------
-Rank 2: business_business_news_0.pdf [Category: business]
-Similarity Score: 0.1997
-Snippet: Tesla shares slump after European sales fall 5 hours ago Tom Espiner Business reporter, BBC News Getty Images Shares in electric car maker Tesla have...
---------------------------------------------------------------------------------
-Rank 3: technology_technology_news_2.pdf [Category: technology]
-Similarity Score: 0.1997
-Snippet: Tesla shares slump after European sales fall 5 hours ago Tom Espiner Business reporter, BBC News Getty Images Shares in electric car maker Tesla have...
---------------------------------------------------------------------------------
-Rank 4: business_business_news_13.pdf [Category: business]
-Similarity Score: 0.0350
-Snippet: Theranos founder Elizabeth Holmes loses fraud appeal 1 day ago Mallory Moench BBC News Getty Images Theranos founder and former chief executive Elizab...
---------------------------------------------------------------------------------
-Rank 5: technology_technology_news_9.pdf [Category: technology]
-Similarity Score: 0.0246
-Snippet: Women's abuse online: 'I get trolled every second, every day' 1 day ago Kate Berry & Tom Gerken BBC News Miah Carter Miah Carter has been sharing her...
---------------------------------------------------------------------------------
+Search Query: 'Prachi Nainawa'
+No matching documents found.
 
 Evaluating search performance...
 
 Checking for Elon Musk and Tesla references in documents...
-Document 5 (innovation_innovation_news_7.pdf) contains Elon Musk or Tesla references
-Document 10 (innovation_innovation_news_0.pdf) contains Elon Musk or Tesla references
-Document 24 (technology_technology_news_6.pdf) contains Elon Musk or Tesla references
-Document 29 (technology_technology_news_2.pdf) contains Elon Musk or Tesla references
-Document 34 (technology_technology_news_9.pdf) contains Elon Musk or Tesla references
-Document 36 (business_business_news_9.pdf) contains Elon Musk or Tesla references
-Document 40 (business_business_news_0.pdf) contains Elon Musk or Tesla references
-Document 45 (business_business_news_7.pdf) contains Elon Musk or Tesla references
-Document 46 (business_business_news_13.pdf) contains Elon Musk or Tesla references
+Document 5 (innovation/innovation_news_7.pdf) contains Elon Musk or Tesla references
+Document 10 (innovation/innovation_news_0.pdf) contains Elon Musk or Tesla references
+Document 24 (technology/technology_news_6.pdf) contains Elon Musk or Tesla references
+Document 29 (technology/technology_news_2.pdf) contains Elon Musk or Tesla references
+Document 34 (technology/technology_news_9.pdf) contains Elon Musk or Tesla references
+Document 36 (business/business_news_9.pdf) contains Elon Musk or Tesla references
+Document 40 (business/business_news_0.pdf) contains Elon Musk or Tesla references
+Document 45 (business/business_news_7.pdf) contains Elon Musk or Tesla references
+Document 46 (business/business_news_13.pdf) contains Elon Musk or Tesla references
 
 DETAILED EVALUATION LOGS:
 ======================================================================
