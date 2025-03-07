@@ -20,10 +20,12 @@ Extracting text from file:  bbc_articles/arts/arts_news_5.pdf
 Extracting text from file:  bbc_articles/arts/arts_news_4.pdf
 Extracting text from file:  bbc_articles/arts/arts_news_9.pdf
 Extracting text from file:  bbc_articles/arts/arts_news_8.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_15.pdf
 Extracting text from file:  bbc_articles/technology/technology_news_5.pdf
 Extracting text from file:  bbc_articles/technology/technology_news_4.pdf
 Extracting text from file:  bbc_articles/technology/technology_news_14.pdf
 Extracting text from file:  bbc_articles/technology/technology_news_6.pdf
+Extracting text from file:  bbc_articles/technology/technology_news_16.pdf
 Extracting text from file:  bbc_articles/technology/technology_news_7.pdf
 Extracting text from file:  bbc_articles/technology/technology_news_3.pdf
 Extracting text from file:  bbc_articles/technology/technology_news_13.pdf
@@ -54,203 +56,614 @@ Extracting text from file:  bbc_articles/travel/travel_news_0.pdf
 Extracting text from file:  bbc_articles/travel/travel_news_1.pdf
 Extracting text from file:  bbc_articles/travel/travel_news_3.pdf
 Extracting text from file:  bbc_articles/travel/travel_news_2.pdf
+Extracting text from file:  bbc_articles/travel/travel_news_6.pdf
+Extracting text from file:  bbc_articles/travel/travel_news_5.pdf
 Extracting text from file:  bbc_articles/travel/travel_news_4.pdf
-Loaded 56 documents from bbc_articles
+Loaded 60 documents from bbc_articles
 
 Building inverted index and calculating TF-IDF scores...
 Top 10 terms in the inverted index:
 ==================================================
 Term                 Doc Count  Documents
 --------------------------------------------------
-sell                 56         [0, 1, 2, 3, 4]...
-read                 56         [0, 1, 2, 3, 4]...
-extern               56         [0, 1, 2, 3, 4]...
-privaci              56         [0, 1, 2, 3, 4]...
-share                56         [0, 1, 2, 3, 4]...
-link                 56         [0, 1, 2, 3, 4]...
-help                 56         [0, 1, 2, 3, 4]...
-info                 56         [0, 1, 2, 3, 4]...
-ago                  56         [0, 1, 2, 3, 4]...
-term                 56         [0, 1, 2, 3, 4]...
+privaci              60         [0, 1, 2, 3, 4]...
+pm                   60         [0, 1, 2, 3, 4]...
+share                60         [0, 1, 2, 3, 4]...
+use                  60         [0, 1, 2, 3, 4]...
+ago                  60         [0, 1, 2, 3, 4]...
+copyright            60         [0, 1, 2, 3, 4]...
+term                 60         [0, 1, 2, 3, 4]...
+polici               60         [0, 1, 2, 3, 4]...
+approach             60         [0, 1, 2, 3, 4]...
+link                 60         [0, 1, 2, 3, 4]...
 
-Calculating document similarity matrix...
+Initializing user profiles...
+Created 2 user profiles
 
-Most similar documents to innovation/innovation_news_10.pdf:
-1. innovation/innovation_news_8.pdf (Similarity: 0.1443)
-2. business/business_news_12.pdf (Similarity: 0.1443)
-3. innovation/innovation_news_5.pdf (Similarity: 0.1309)
-4. technology/technology_news_5.pdf (Similarity: 0.1309)
-5. arts/arts_news_4.pdf (Similarity: 0.1235)
+Top interests for Tech & Programming Enthusiast (user01):
+  python: 0.0882
+  new: 0.0588
+  program: 0.0588
+  languag: 0.0588
+  appl: 0.0294
+  product: 0.0294
+  artifici: 0.0294
+  intellig: 0.0294
+  applic: 0.0294
+  latest: 0.0294
 
-Testing search functionality...
+Top interests for Nature & Wildlife Enthusiast (user02):
+  art: 0.0645
+  anim: 0.0645
+  wildlif: 0.0645
+  snake: 0.0645
+  natur: 0.0645
+  exhibit: 0.0323
+  near: 0.0323
+  exot: 0.0323
+  rainforest: 0.0323
+  photographi: 0.0323
 
-Search Query: 'Prachi Nainawa'
-No matching documents found.
+Testing search functionality with personalization...
+
+Search Query: 'python' (should show different results for each user)
+
+Regular Search Results (no personalization):
+Found 4 matching documents.
+================================================================================
+Rank 1: travel/travel_news_6.pdf [Category: travel]
+Similarity Score: 0.4015
+Snippet: Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
+--------------------------------------------------------------------------------
+Rank 2: technology/technology_news_15.pdf [Category: technology]
+Similarity Score: 0.4015
+Snippet: Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
+--------------------------------------------------------------------------------
+Rank 3: travel/travel_news_5.pdf [Category: travel]
+Similarity Score: 0.1861
+Snippet: Park warning after escaped python sightings 13 August 2024Share Save Fosiya Ismail BBC News, West Midlands Getty Images Park visitors were urged not t...
+--------------------------------------------------------------------------------
+Rank 4: technology/technology_news_16.pdf [Category: technology]
+Similarity Score: 0.0456
+Snippet: Learning to code 'will seriously change your life' 26 March 2021Share Save Michael Winrow Technology of Business reporter Hannah Blair Hannah Blair st...
+--------------------------------------------------------------------------------
+
+Personalized Results for Tech & Programming Enthusiast (user01):
+Personalized results for Tech & Programming Enthusiast (user_id: user01)
+Found 4 matching documents.
+================================================================================
+Rank 1: travel/travel_news_6.pdf [Category: travel]
+Similarity Score: 0.2835
+Snippet: Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
+--------------------------------------------------------------------------------
+Rank 2: technology/technology_news_15.pdf [Category: technology]
+Similarity Score: 0.2835
+Snippet: Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
+--------------------------------------------------------------------------------
+Rank 3: travel/travel_news_5.pdf [Category: travel]
+Similarity Score: 0.1324
+Snippet: Park warning after escaped python sightings 13 August 2024Share Save Fosiya Ismail BBC News, West Midlands Getty Images Park visitors were urged not t...
+--------------------------------------------------------------------------------
+Rank 4: technology/technology_news_16.pdf [Category: technology] [Matches your interests]
+Similarity Score: 0.0367
+Snippet: Learning to code 'will seriously change your life' 26 March 2021Share Save Michael Winrow Technology of Business reporter Hannah Blair Hannah Blair st...
+--------------------------------------------------------------------------------
+
+Personalized Results for Nature & Wildlife Enthusiast (user02):
+Personalized results for Nature & Wildlife Enthusiast (user_id: user02)
+Found 4 matching documents.
+================================================================================
+Rank 1: travel/travel_news_6.pdf [Category: travel] [Matches your interests]
+Similarity Score: 0.2853
+Snippet: Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
+--------------------------------------------------------------------------------
+Rank 2: technology/technology_news_15.pdf [Category: technology] [Matches your interests]
+Similarity Score: 0.2853
+Snippet: Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
+--------------------------------------------------------------------------------
+Rank 3: travel/travel_news_5.pdf [Category: travel] [Matches your interests]
+Similarity Score: 0.1344
+Snippet: Park warning after escaped python sightings 13 August 2024Share Save Fosiya Ismail BBC News, West Midlands Getty Images Park visitors were urged not t...
+--------------------------------------------------------------------------------
+Rank 4: technology/technology_news_16.pdf [Category: technology]
+Similarity Score: 0.0327
+Snippet: Learning to code 'will seriously change your life' 26 March 2021Share Save Michael Winrow Technology of Business reporter Hannah Blair Hannah Blair st...
+--------------------------------------------------------------------------------
+
+Search Query: 'technology and artificial intelligence'
+
+Regular Search Results (no personalization):
+Found 31 matching documents.
+================================================================================
+Rank 1: innovation/innovation_news_9.pdf [Category: innovation]
+Similarity Score: 0.0666
+Snippet: Apple commits to $500bn US investment 1 day ago Natalie Sherman Business reporter, BBC News Getty Images Apple plans to invest more than $500bn (£396b...
+--------------------------------------------------------------------------------
+Rank 2: innovation/innovation_news_1.pdf [Category: innovation]
+Similarity Score: 0.0637
+Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
+--------------------------------------------------------------------------------
+Rank 3: technology/technology_news_0.pdf [Category: technology]
+Similarity Score: 0.0637
+Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
+--------------------------------------------------------------------------------
+Rank 4: business/business_news_2.pdf [Category: business]
+Similarity Score: 0.0637
+Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
+--------------------------------------------------------------------------------
+Rank 5: innovation/innovation_news_8.pdf [Category: innovation]
+Similarity Score: 0.0563
+Snippet: Major Asia bank to cut 4,000 roles as AI replaces humans 1 day ago Peter Hoskins Business reporter Getty Images Singapore's biggest bank, DBS, says it...
+--------------------------------------------------------------------------------
+
+Personalized Results for Tech & Programming Enthusiast (user01):
+Personalized results for Tech & Programming Enthusiast (user_id: user01)
+Found 31 matching documents.
+================================================================================
+Rank 1: innovation/innovation_news_9.pdf [Category: innovation] [Matches your interests]
+Similarity Score: 0.0517
+Snippet: Apple commits to $500bn US investment 1 day ago Natalie Sherman Business reporter, BBC News Getty Images Apple plans to invest more than $500bn (£396b...
+--------------------------------------------------------------------------------
+Rank 2: innovation/innovation_news_1.pdf [Category: innovation] [Matches your interests]
+Similarity Score: 0.0508
+Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
+--------------------------------------------------------------------------------
+Rank 3: technology/technology_news_0.pdf [Category: technology] [Matches your interests]
+Similarity Score: 0.0508
+Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
+--------------------------------------------------------------------------------
+Rank 4: business/business_news_2.pdf [Category: business] [Matches your interests]
+Similarity Score: 0.0508
+Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
+--------------------------------------------------------------------------------
+Rank 5: innovation/innovation_news_8.pdf [Category: innovation] [Matches your interests]
+Similarity Score: 0.0424
+Snippet: Major Asia bank to cut 4,000 roles as AI replaces humans 1 day ago Peter Hoskins Business reporter Getty Images Singapore's biggest bank, DBS, says it...
+--------------------------------------------------------------------------------
+
+Personalized Results for Nature & Wildlife Enthusiast (user02):
+Personalized results for Nature & Wildlife Enthusiast (user_id: user02)
+Found 31 matching documents.
+================================================================================
+Rank 1: innovation/innovation_news_9.pdf [Category: innovation]
+Similarity Score: 0.0471
+Snippet: Apple commits to $500bn US investment 1 day ago Natalie Sherman Business reporter, BBC News Getty Images Apple plans to invest more than $500bn (£396b...
+--------------------------------------------------------------------------------
+Rank 2: innovation/innovation_news_1.pdf [Category: innovation]
+Similarity Score: 0.0446
+Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
+--------------------------------------------------------------------------------
+Rank 3: technology/technology_news_0.pdf [Category: technology]
+Similarity Score: 0.0446
+Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
+--------------------------------------------------------------------------------
+Rank 4: business/business_news_2.pdf [Category: business]
+Similarity Score: 0.0446
+Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
+--------------------------------------------------------------------------------
+Rank 5: innovation/innovation_news_8.pdf [Category: innovation]
+Similarity Score: 0.0404
+Snippet: Major Asia bank to cut 4,000 roles as AI replaces humans 1 day ago Peter Hoskins Business reporter Getty Images Singapore's biggest bank, DBS, says it...
+--------------------------------------------------------------------------------
+
+Search Query: 'travel destinations in Europe'
+
+Regular Search Results (no personalization):
+Found 28 matching documents.
+================================================================================
+Rank 1: travel/travel_news_3.pdf [Category: travel]
+Similarity Score: 0.1824
+Snippet: Digital travel permit to be introduced in late 2025 1 day ago Ashlea Tracey BBC News, Isle of Man Manx Scenes The schem e m irrors the system introduc...
+--------------------------------------------------------------------------------
+Rank 2: travel/travel_news_4.pdf [Category: travel]
+Similarity Score: 0.0408
+Snippet: The over-50s flying high after airline appeal 1 day ago Jody Sabral BBC News, South East Jody Sabral/BBC Race Welch, a retired grandfather, has joined...
+--------------------------------------------------------------------------------
+Rank 3: business/business_news_10.pdf [Category: business]
+Similarity Score: 0.0210
+Snippet: Trump orders copper probe in first step to tariffs 15 hours ago Natalie Sherman BBC News Getty Images US President Donald Trump has ordered an investi...
+--------------------------------------------------------------------------------
+Rank 4: travel/travel_news_0.pdf [Category: travel]
+Similarity Score: 0.0195
+Snippet: Farm landing strip has planning exemption refused 1 hour ago Trevor Bevins Local Democracy Reporting Service Court Farm Dorset Council refused to gran...
+--------------------------------------------------------------------------------
+Rank 5: travel/travel_news_1.pdf [Category: travel]
+Similarity Score: 0.0174
+Snippet: Couple's trauma after body placed next to them on flight 3 hours ago Maia Davies BBC News Watch: Mitchell Ring and Jennifer Colin speak to A Current A...
+--------------------------------------------------------------------------------
+
+Personalized Results for Tech & Programming Enthusiast (user01):
+Personalized results for Tech & Programming Enthusiast (user_id: user01)
+Found 28 matching documents.
+================================================================================
+Rank 1: travel/travel_news_3.pdf [Category: travel]
+Similarity Score: 0.1285
+Snippet: Digital travel permit to be introduced in late 2025 1 day ago Ashlea Tracey BBC News, Isle of Man Manx Scenes The schem e m irrors the system introduc...
+--------------------------------------------------------------------------------
+Rank 2: travel/travel_news_4.pdf [Category: travel]
+Similarity Score: 0.0295
+Snippet: The over-50s flying high after airline appeal 1 day ago Jody Sabral BBC News, South East Jody Sabral/BBC Race Welch, a retired grandfather, has joined...
+--------------------------------------------------------------------------------
+Rank 3: business/business_news_10.pdf [Category: business] [Matches your interests]
+Similarity Score: 0.0169
+Snippet: Trump orders copper probe in first step to tariffs 15 hours ago Natalie Sherman BBC News Getty Images US President Donald Trump has ordered an investi...
+--------------------------------------------------------------------------------
+Rank 4: innovation/innovation_news_9.pdf [Category: innovation] [Matches your interests]
+Similarity Score: 0.0158
+Snippet: Apple commits to $500bn US investment 1 day ago Natalie Sherman Business reporter, BBC News Getty Images Apple plans to invest more than $500bn (£396b...
+--------------------------------------------------------------------------------
+Rank 5: travel/travel_news_0.pdf [Category: travel]
+Similarity Score: 0.0142
+Snippet: Farm landing strip has planning exemption refused 1 hour ago Trevor Bevins Local Democracy Reporting Service Court Farm Dorset Council refused to gran...
+--------------------------------------------------------------------------------
+
+Personalized Results for Nature & Wildlife Enthusiast (user02):
+Personalized results for Nature & Wildlife Enthusiast (user_id: user02)
+Found 28 matching documents.
+================================================================================
+Rank 1: travel/travel_news_3.pdf [Category: travel]
+Similarity Score: 0.1277
+Snippet: Digital travel permit to be introduced in late 2025 1 day ago Ashlea Tracey BBC News, Isle of Man Manx Scenes The schem e m irrors the system introduc...
+--------------------------------------------------------------------------------
+Rank 2: travel/travel_news_4.pdf [Category: travel]
+Similarity Score: 0.0291
+Snippet: The over-50s flying high after airline appeal 1 day ago Jody Sabral BBC News, South East Jody Sabral/BBC Race Welch, a retired grandfather, has joined...
+--------------------------------------------------------------------------------
+Rank 3: business/business_news_10.pdf [Category: business]
+Similarity Score: 0.0147
+Snippet: Trump orders copper probe in first step to tariffs 15 hours ago Natalie Sherman BBC News Getty Images US President Donald Trump has ordered an investi...
+--------------------------------------------------------------------------------
+Rank 4: travel/travel_news_0.pdf [Category: travel]
+Similarity Score: 0.0142
+Snippet: Farm landing strip has planning exemption refused 1 hour ago Trevor Bevins Local Democracy Reporting Service Court Farm Dorset Council refused to gran...
+--------------------------------------------------------------------------------
+Rank 5: arts/arts_news_2.pdf [Category: arts]
+Similarity Score: 0.0135
+Snippet: Sites sought for Ukranian bombed door sculpture 3 hours ago Robert Marshall The mangled front door from a destroyed house in eastern Ukraine has a gap...
+--------------------------------------------------------------------------------
+
+Search Query: 'art exhibitions and culture'
+
+Regular Search Results (no personalization):
+Found 21 matching documents.
+================================================================================
+Rank 1: arts/arts_news_3.pdf [Category: arts]
+Similarity Score: 0.4026
+Snippet: Abuse survivors' art is 'relief from a monster' 6 hours ago Sophie Parker BBC News, Wiltshire Wiltshire Council The exhibition has work on display fro...
+--------------------------------------------------------------------------------
+Rank 2: arts/arts_news_8.pdf [Category: arts]
+Similarity Score: 0.2001
+Snippet: Westminster visit to highlight city's culture 1 day ago PA Media Hull was the UK City of Culture in 2017 Delegates from Hull are appearing at an event...
+--------------------------------------------------------------------------------
+Rank 3: arts/arts_news_0.pdf [Category: arts]
+Similarity Score: 0.1938
+Snippet: £50k reward for 'great' artist Orlik's missing works 18 February 2025 Sophie Parker BBC News, Wiltshire Henry OrlikHomeNewsSportBusinessInnovationCult...
+--------------------------------------------------------------------------------
+Rank 4: arts/arts_news_4.pdf [Category: arts]
+Similarity Score: 0.0390
+Snippet: Keith Flint mural to be restored to former glory 21 hours ago George King BBC News, Essex Jaime Bunting Photography The Keith Flint mural at Braintree...
+--------------------------------------------------------------------------------
+Rank 5: arts/arts_news_2.pdf [Category: arts]
+Similarity Score: 0.0367
+Snippet: Sites sought for Ukranian bombed door sculpture 3 hours ago Robert Marshall The mangled front door from a destroyed house in eastern Ukraine has a gap...
+--------------------------------------------------------------------------------
+
+Personalized Results for Tech & Programming Enthusiast (user01):
+Personalized results for Tech & Programming Enthusiast (user_id: user01)
+Found 21 matching documents.
+================================================================================
+Rank 1: arts/arts_news_3.pdf [Category: arts]
+Similarity Score: 0.2826
+Snippet: Abuse survivors' art is 'relief from a monster' 6 hours ago Sophie Parker BBC News, Wiltshire Wiltshire Council The exhibition has work on display fro...
+--------------------------------------------------------------------------------
+Rank 2: arts/arts_news_8.pdf [Category: arts]
+Similarity Score: 0.1419
+Snippet: Westminster visit to highlight city's culture 1 day ago PA Media Hull was the UK City of Culture in 2017 Delegates from Hull are appearing at an event...
+--------------------------------------------------------------------------------
+Rank 3: arts/arts_news_0.pdf [Category: arts]
+Similarity Score: 0.1363
+Snippet: £50k reward for 'great' artist Orlik's missing works 18 February 2025 Sophie Parker BBC News, Wiltshire Henry OrlikHomeNewsSportBusinessInnovationCult...
+--------------------------------------------------------------------------------
+Rank 4: arts/arts_news_4.pdf [Category: arts]
+Similarity Score: 0.0277
+Snippet: Keith Flint mural to be restored to former glory 21 hours ago George King BBC News, Essex Jaime Bunting Photography The Keith Flint mural at Braintree...
+--------------------------------------------------------------------------------
+Rank 5: arts/arts_news_2.pdf [Category: arts]
+Similarity Score: 0.0257
+Snippet: Sites sought for Ukranian bombed door sculpture 3 hours ago Robert Marshall The mangled front door from a destroyed house in eastern Ukraine has a gap...
+--------------------------------------------------------------------------------
+
+Personalized Results for Nature & Wildlife Enthusiast (user02):
+Personalized results for Nature & Wildlife Enthusiast (user_id: user02)
+Found 21 matching documents.
+================================================================================
+Rank 1: arts/arts_news_3.pdf [Category: arts]
+Similarity Score: 0.2831
+Snippet: Abuse survivors' art is 'relief from a monster' 6 hours ago Sophie Parker BBC News, Wiltshire Wiltshire Council The exhibition has work on display fro...
+--------------------------------------------------------------------------------
+Rank 2: arts/arts_news_8.pdf [Category: arts]
+Similarity Score: 0.1421
+Snippet: Westminster visit to highlight city's culture 1 day ago PA Media Hull was the UK City of Culture in 2017 Delegates from Hull are appearing at an event...
+--------------------------------------------------------------------------------
+Rank 3: arts/arts_news_0.pdf [Category: arts]
+Similarity Score: 0.1372
+Snippet: £50k reward for 'great' artist Orlik's missing works 18 February 2025 Sophie Parker BBC News, Wiltshire Henry OrlikHomeNewsSportBusinessInnovationCult...
+--------------------------------------------------------------------------------
+Rank 4: arts/arts_news_4.pdf [Category: arts]
+Similarity Score: 0.0286
+Snippet: Keith Flint mural to be restored to former glory 21 hours ago George King BBC News, Essex Jaime Bunting Photography The Keith Flint mural at Braintree...
+--------------------------------------------------------------------------------
+Rank 5: arts/arts_news_2.pdf [Category: arts]
+Similarity Score: 0.0271
+Snippet: Sites sought for Ukranian bombed door sculpture 3 hours ago Robert Marshall The mangled front door from a destroyed house in eastern Ukraine has a gap...
+--------------------------------------------------------------------------------
 
 Evaluating search performance...
 
-Checking for Elon Musk and Tesla references in documents...
-Document 5 (innovation/innovation_news_7.pdf) contains Elon Musk or Tesla references
-Document 10 (innovation/innovation_news_0.pdf) contains Elon Musk or Tesla references
-Document 24 (technology/technology_news_6.pdf) contains Elon Musk or Tesla references
-Document 29 (technology/technology_news_2.pdf) contains Elon Musk or Tesla references
-Document 34 (technology/technology_news_9.pdf) contains Elon Musk or Tesla references
-Document 36 (business/business_news_9.pdf) contains Elon Musk or Tesla references
-Document 40 (business/business_news_0.pdf) contains Elon Musk or Tesla references
-Document 45 (business/business_news_7.pdf) contains Elon Musk or Tesla references
-Document 46 (business/business_news_13.pdf) contains Elon Musk or Tesla references
+Performance for generic search (no personalization):
 
 DETAILED EVALUATION LOGS:
 ======================================================================
-Number of test queries: 4
+Number of test queries: 3
 
-Query 0: 'technology AI artificial intelligence'
-Number of relevant documents defined: 15
-Number of documents retrieved: 31
-Intersection size: 13
-Precision: 0.4194
-Recall: 0.8667
-F1 Score: 0.5652
-
-Precision at rank calculation:
-  Rank 1: Document 1 is not relevant
-  Rank 2: Document 47 is not relevant
-  Rank 3: Document 0 is not relevant
-  Rank 4: Document 9 is not relevant
-  Rank 5: Document 31 is relevant, precision at 5 = 0.2000
-  Rank 6: Document 39 is not relevant
-  Rank 7: Document 4 is not relevant
-  Rank 8: Document 21 is relevant, precision at 8 = 0.2500
-  Rank 9: Document 25 is relevant, precision at 9 = 0.3333
-  Rank 10: Document 2 is not relevant
-  Rank 11: Document 10 is not relevant
-  Rank 12: Document 24 is relevant, precision at 12 = 0.3333
-  Rank 13: Document 36 is not relevant
-  Rank 14: Document 27 is relevant, precision at 14 = 0.3571
-  Rank 15: Document 37 is not relevant
-  Rank 16: Document 41 is not relevant
-  Rank 17: Document 8 is not relevant
-  Rank 18: Document 26 is relevant, precision at 18 = 0.3333
-  Rank 19: Document 32 is relevant, precision at 19 = 0.3684
-  Rank 20: Document 42 is not relevant
-  Rank 21: Document 46 is not relevant
-  Rank 22: Document 33 is relevant, precision at 22 = 0.3636
-  Rank 23: Document 28 is relevant, precision at 23 = 0.3913
-  Rank 24: Document 23 is relevant, precision at 24 = 0.4167
-  Rank 25: Document 3 is not relevant
-  Rank 26: Document 22 is relevant, precision at 26 = 0.4231
-  Rank 27: Document 18 is not relevant
-  Rank 28: Document 29 is relevant, precision at 28 = 0.4286
-  Rank 29: Document 40 is not relevant
-  Rank 30: Document 5 is not relevant
-  Rank 31: Document 34 is relevant, precision at 31 = 0.4194
-Average Precision: 0.3079
-
-Query 1: 'business economy finance'
-Number of relevant documents defined: 15
-Number of documents retrieved: 29
-Intersection size: 11
-Precision: 0.3793
-Recall: 0.7333
-F1 Score: 0.5000
+Query 0: 'artificial intelligence'
+Number of relevant documents defined: 28
+Number of documents retrieved: 13
+Intersection size: 9
+Precision: 0.6923
+Recall: 0.3214
+F1 Score: 0.4390
 
 Precision at rank calculation:
-  Rank 1: Document 41 is relevant, precision at 1 = 1.0000
-  Rank 2: Document 48 is relevant, precision at 2 = 1.0000
-  Rank 3: Document 2 is not relevant
-  Rank 4: Document 37 is relevant, precision at 4 = 0.7500
-  Rank 5: Document 38 is relevant, precision at 5 = 0.8000
-  Rank 6: Document 30 is not relevant
-  Rank 7: Document 1 is not relevant
-  Rank 8: Document 47 is relevant, precision at 8 = 0.6250
-  Rank 9: Document 10 is not relevant
-  Rank 10: Document 24 is not relevant
-  Rank 11: Document 36 is relevant, precision at 11 = 0.5455
-  Rank 12: Document 44 is relevant, precision at 12 = 0.5833
-  Rank 13: Document 0 is not relevant
-  Rank 14: Document 4 is not relevant
-  Rank 15: Document 21 is not relevant
-  Rank 16: Document 27 is not relevant
-  Rank 17: Document 29 is not relevant
-  Rank 18: Document 40 is relevant, precision at 18 = 0.4444
-  Rank 19: Document 8 is not relevant
-  Rank 20: Document 26 is not relevant
-  Rank 21: Document 19 is not relevant
-  Rank 22: Document 49 is relevant, precision at 22 = 0.4091
-  Rank 23: Document 55 is not relevant
-  Rank 24: Document 46 is relevant, precision at 24 = 0.4167
-  Rank 25: Document 25 is not relevant
-  Rank 26: Document 50 is relevant, precision at 26 = 0.4231
-  Rank 27: Document 52 is not relevant
-  Rank 28: Document 3 is not relevant
-  Rank 29: Document 22 is not relevant
-Average Precision: 0.4665
+  Rank 1: Document 2 is relevant, precision at 1 = 1.0000
+  Rank 2: Document 33 is relevant, precision at 2 = 1.0000
+  Rank 3: Document 9 is relevant, precision at 3 = 1.0000
+  Rank 4: Document 41 is not relevant
+  Rank 5: Document 4 is relevant, precision at 5 = 0.8000
+  Rank 6: Document 22 is relevant, precision at 6 = 0.8333
+  Rank 7: Document 1 is relevant, precision at 7 = 0.8571
+  Rank 8: Document 49 is not relevant
+  Rank 9: Document 34 is relevant, precision at 9 = 0.7778
+  Rank 10: Document 44 is not relevant
+  Rank 11: Document 43 is not relevant
+  Rank 12: Document 0 is relevant, precision at 12 = 0.6667
+  Rank 13: Document 27 is relevant, precision at 13 = 0.6923
+Average Precision: 0.2724
 
-Query 2: 'travel destination Europe'
-Number of relevant documents defined: 5
-Number of documents retrieved: 27
-Intersection size: 5
-Precision: 0.1852
-Recall: 1.0000
-F1 Score: 0.3125
-
-Precision at rank calculation:
-  Rank 1: Document 53 is relevant, precision at 1 = 1.0000
-  Rank 2: Document 55 is relevant, precision at 2 = 1.0000
-  Rank 3: Document 48 is not relevant
-  Rank 4: Document 51 is relevant, precision at 4 = 0.7500
-  Rank 5: Document 14 is not relevant
-  Rank 6: Document 52 is relevant, precision at 6 = 0.6667
-  Rank 7: Document 2 is not relevant
-  Rank 8: Document 37 is not relevant
-  Rank 9: Document 13 is not relevant
-  Rank 10: Document 29 is not relevant
-  Rank 11: Document 40 is not relevant
-  Rank 12: Document 43 is not relevant
-  Rank 13: Document 49 is not relevant
-  Rank 14: Document 46 is not relevant
-  Rank 15: Document 54 is relevant, precision at 15 = 0.3333
-  Rank 16: Document 44 is not relevant
-  Rank 17: Document 3 is not relevant
-  Rank 18: Document 22 is not relevant
-  Rank 19: Document 45 is not relevant
-  Rank 20: Document 38 is not relevant
-  Rank 21: Document 25 is not relevant
-  Rank 22: Document 5 is not relevant
-  Rank 23: Document 8 is not relevant
-  Rank 24: Document 16 is not relevant
-  Rank 25: Document 18 is not relevant
-  Rank 26: Document 26 is not relevant
-  Rank 27: Document 34 is not relevant
-Average Precision: 0.7500
-
-Query 3: 'elon musk tesla'
-Number of relevant documents defined: 9
-Number of documents retrieved: 6
+Query 1: 'museums cultural exhibition'
+Number of relevant documents defined: 17
+Number of documents retrieved: 18
 Intersection size: 6
-Precision: 1.0000
-Recall: 0.6667
-F1 Score: 0.8000
+Precision: 0.3333
+Recall: 0.3529
+F1 Score: 0.3429
 
 Precision at rank calculation:
-  Rank 1: Document 40 is relevant, precision at 1 = 1.0000
-  Rank 2: Document 29 is relevant, precision at 2 = 1.0000
-  Rank 3: Document 45 is relevant, precision at 3 = 1.0000
-  Rank 4: Document 46 is relevant, precision at 4 = 1.0000
-  Rank 5: Document 34 is relevant, precision at 5 = 1.0000
-  Rank 6: Document 5 is relevant, precision at 6 = 1.0000
-Average Precision: 0.6667
+  Rank 1: Document 13 is relevant, precision at 1 = 1.0000
+  Rank 2: Document 20 is relevant, precision at 2 = 1.0000
+  Rank 3: Document 11 is relevant, precision at 3 = 1.0000
+  Rank 4: Document 19 is relevant, precision at 4 = 1.0000
+  Rank 5: Document 0 is not relevant
+  Rank 6: Document 38 is not relevant
+  Rank 7: Document 10 is not relevant
+  Rank 8: Document 25 is not relevant
+  Rank 9: Document 18 is relevant, precision at 9 = 0.5556
+  Rank 10: Document 4 is not relevant
+  Rank 11: Document 22 is not relevant
+  Rank 12: Document 1 is not relevant
+  Rank 13: Document 49 is not relevant
+  Rank 14: Document 30 is not relevant
+  Rank 15: Document 17 is relevant, precision at 15 = 0.4000
+  Rank 16: Document 5 is not relevant
+  Rank 17: Document 36 is not relevant
+  Rank 18: Document 27 is not relevant
+Average Precision: 0.2915
 
-Average precision: 0.4960
+Query 2: 'python'
+Number of relevant documents defined: 4
+Number of documents retrieved: 4
+Intersection size: 4
+Precision: 1.0000
+Recall: 1.0000
+F1 Score: 1.0000
 
-Average recall: 0.8167
+Precision at rank calculation:
+  Rank 1: Document 57 is relevant, precision at 1 = 1.0000
+  Rank 2: Document 21 is relevant, precision at 2 = 1.0000
+  Rank 3: Document 58 is relevant, precision at 3 = 1.0000
+  Rank 4: Document 26 is relevant, precision at 4 = 1.0000
+Average Precision: 1.0000
 
-Average f1_score: 0.5444
+Average precision: 0.6752
 
-Average avg_precision: 0.5478
+Average recall: 0.5581
+
+Average f1_score: 0.5940
+
+Average avg_precision: 0.5213
 Search System Performance Evaluation
 ==================================================
-Average Precision: 0.4960
-Average Recall: 0.8167
-Average F1 Score: 0.5444
-Mean Average Precision (MAP): 0.5478
+Average Precision: 0.6752
+Average Recall: 0.5581
+Average F1 Score: 0.5940
+Mean Average Precision (MAP): 0.5213
+
+Performance for Tech & Programming Enthusiast (user01):
+
+DETAILED EVALUATION LOGS:
+======================================================================
+Number of test queries: 3
+Evaluation for user: Tech & Programming Enthusiast (user_id: user01)
+
+Query 0: 'artificial intelligence'
+Number of relevant documents defined: 28
+Number of documents retrieved: 13
+Intersection size: 9
+Precision: 0.6923
+Recall: 0.3214
+F1 Score: 0.4390
+
+Precision at rank calculation:
+  Rank 1: Document 2 is relevant, precision at 1 = 1.0000
+  Rank 2: Document 33 is relevant, precision at 2 = 1.0000
+  Rank 3: Document 9 is relevant, precision at 3 = 1.0000
+  Rank 4: Document 41 is not relevant
+  Rank 5: Document 4 is relevant, precision at 5 = 0.8000
+  Rank 6: Document 22 is relevant, precision at 6 = 0.8333
+  Rank 7: Document 1 is relevant, precision at 7 = 0.8571
+  Rank 8: Document 49 is not relevant
+  Rank 9: Document 34 is relevant, precision at 9 = 0.7778
+  Rank 10: Document 44 is not relevant
+  Rank 11: Document 43 is not relevant
+  Rank 12: Document 0 is relevant, precision at 12 = 0.6667
+  Rank 13: Document 27 is relevant, precision at 13 = 0.6923
+Average Precision: 0.2724
+
+Query 1: 'museums cultural exhibition'
+Number of relevant documents defined: 17
+Number of documents retrieved: 18
+Intersection size: 6
+Precision: 0.3333
+Recall: 0.3529
+F1 Score: 0.3429
+
+Precision at rank calculation:
+  Rank 1: Document 13 is relevant, precision at 1 = 1.0000
+  Rank 2: Document 20 is relevant, precision at 2 = 1.0000
+  Rank 3: Document 11 is relevant, precision at 3 = 1.0000
+  Rank 4: Document 19 is relevant, precision at 4 = 1.0000
+  Rank 5: Document 0 is not relevant
+  Rank 6: Document 38 is not relevant
+  Rank 7: Document 10 is not relevant
+  Rank 8: Document 25 is not relevant
+  Rank 9: Document 18 is relevant, precision at 9 = 0.5556
+  Rank 10: Document 4 is not relevant
+  Rank 11: Document 22 is not relevant
+  Rank 12: Document 1 is not relevant
+  Rank 13: Document 49 is not relevant
+  Rank 14: Document 30 is not relevant
+  Rank 15: Document 17 is relevant, precision at 15 = 0.4000
+  Rank 16: Document 5 is not relevant
+  Rank 17: Document 36 is not relevant
+  Rank 18: Document 27 is not relevant
+Average Precision: 0.2915
+
+Query 2: 'python'
+Number of relevant documents defined: 1
+Number of documents retrieved: 4
+Intersection size: 1
+Precision: 0.2500
+Recall: 1.0000
+F1 Score: 0.4000
+
+Precision at rank calculation:
+  Rank 1: Document 57 is not relevant
+  Rank 2: Document 21 is not relevant
+  Rank 3: Document 58 is not relevant
+  Rank 4: Document 26 is relevant, precision at 4 = 0.2500
+Average Precision: 0.2500
+
+Average precision: 0.4252
+
+Average recall: 0.5581
+
+Average f1_score: 0.3940
+
+Average avg_precision: 0.2713
+Search System Performance Evaluation
+==================================================
+Average Precision: 0.4252
+Average Recall: 0.5581
+Average F1 Score: 0.3940
+Mean Average Precision (MAP): 0.2713
+
+Performance for Nature & Wildlife Enthusiast (user02):
+
+DETAILED EVALUATION LOGS:
+======================================================================
+Number of test queries: 3
+Evaluation for user: Nature & Wildlife Enthusiast (user_id: user02)
+
+Query 0: 'artificial intelligence'
+Number of relevant documents defined: 28
+Number of documents retrieved: 13
+Intersection size: 9
+Precision: 0.6923
+Recall: 0.3214
+F1 Score: 0.4390
+
+Precision at rank calculation:
+  Rank 1: Document 2 is relevant, precision at 1 = 1.0000
+  Rank 2: Document 33 is relevant, precision at 2 = 1.0000
+  Rank 3: Document 9 is relevant, precision at 3 = 1.0000
+  Rank 4: Document 41 is not relevant
+  Rank 5: Document 4 is relevant, precision at 5 = 0.8000
+  Rank 6: Document 22 is relevant, precision at 6 = 0.8333
+  Rank 7: Document 1 is relevant, precision at 7 = 0.8571
+  Rank 8: Document 49 is not relevant
+  Rank 9: Document 34 is relevant, precision at 9 = 0.7778
+  Rank 10: Document 44 is not relevant
+  Rank 11: Document 43 is not relevant
+  Rank 12: Document 0 is relevant, precision at 12 = 0.6667
+  Rank 13: Document 27 is relevant, precision at 13 = 0.6923
+Average Precision: 0.2724
+
+Query 1: 'museums cultural exhibition'
+Number of relevant documents defined: 17
+Number of documents retrieved: 18
+Intersection size: 6
+Precision: 0.3333
+Recall: 0.3529
+F1 Score: 0.3429
+
+Precision at rank calculation:
+  Rank 1: Document 13 is relevant, precision at 1 = 1.0000
+  Rank 2: Document 20 is relevant, precision at 2 = 1.0000
+  Rank 3: Document 11 is relevant, precision at 3 = 1.0000
+  Rank 4: Document 19 is relevant, precision at 4 = 1.0000
+  Rank 5: Document 0 is not relevant
+  Rank 6: Document 38 is not relevant
+  Rank 7: Document 10 is not relevant
+  Rank 8: Document 25 is not relevant
+  Rank 9: Document 18 is relevant, precision at 9 = 0.5556
+  Rank 10: Document 4 is not relevant
+  Rank 11: Document 22 is not relevant
+  Rank 12: Document 1 is not relevant
+  Rank 13: Document 49 is not relevant
+  Rank 14: Document 30 is not relevant
+  Rank 15: Document 17 is relevant, precision at 15 = 0.4000
+  Rank 16: Document 27 is not relevant
+  Rank 17: Document 5 is not relevant
+  Rank 18: Document 36 is not relevant
+Average Precision: 0.2915
+
+Query 2: 'python'
+Number of relevant documents defined: 3
+Number of documents retrieved: 4
+Intersection size: 3
+Precision: 0.7500
+Recall: 1.0000
+F1 Score: 0.8571
+
+Precision at rank calculation:
+  Rank 1: Document 57 is relevant, precision at 1 = 1.0000
+  Rank 2: Document 21 is relevant, precision at 2 = 1.0000
+  Rank 3: Document 58 is relevant, precision at 3 = 1.0000
+  Rank 4: Document 26 is not relevant
+Average Precision: 1.0000
+
+Average precision: 0.5919
+
+Average recall: 0.5581
+
+Average f1_score: 0.5463
+
+Average avg_precision: 0.5213
+Search System Performance Evaluation
+==================================================
+Average Precision: 0.5919
+Average Recall: 0.5581
+Average F1 Score: 0.5463
+Mean Average Precision (MAP): 0.5213
+
+Recommender System complete.
