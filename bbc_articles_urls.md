@@ -1,0 +1,64 @@
+### Innovation
+- **[Apple boss Tim Cook says DEI programmes may have to change](https://www.bbc.com/news/articles/clyjv8e49deo)**
+- **[Apple AI tool transcribed the word 'racist' as 'Trump'](https://www.bbc.com/news/articles/c5ymvjjqzmeo)**
+- **[Artists release silent album in protest against AI using their work](https://www.bbc.com/news/articles/cwyd3r62kp5o)**
+- **[Seven planets align in UK skies this week for last time until 2040](https://www.bbc.com/news/articles/c5yd4z15r54o)**
+- **[What Apple pulling UK Advanced Data Protection means for you](https://www.bbc.com/news/articles/cn524lx9445o)**
+- **[Cancer scans could be revolutionised by nuclear start-up](https://www.bbc.com/news/articles/c1kjmm3n427o)**
+- **[University of Surrey raises £70.3m to help disadvantaged students](https://www.bbc.com/news/articles/cgq90vv9zv5o)**
+- **[Mobile phone theft: What to do if your device is stolen](https://www.bbc.com/news/articles/cwygwnvdq23o)**
+- **[Women's abuse online: 'I get trolled every second, every day'](https://www.bbc.com/news/articles/c625z3xgyv1o)**
+- **[Singapore's biggest bank DBS to cut 4,000 roles as it embraces AI](https://www.bbc.com/news/articles/c4g7xn9y64po)**
+- **[Apple commits to 'largest ever' $500bn US investment](https://www.bbc.com/news/articles/ce980m2xv30o)**
+### Arts
+- **[Henry Orlik: £50k reward for return of art by surrealist recluse](https://www.bbc.com/news/articles/c5yen2k3l37o)**
+- **[Northampton theatre could close after budget cut, says councillor](https://www.bbc.com/news/articles/cn8rxpn3302o)**
+- **[Ukranian bombed door sculpture needs display sites, artist says](https://www.bbc.com/news/articles/c0q1w2ed4lqo)**
+- **[Wiltshire exhibition to display art by domestic abuse survivors](https://www.bbc.com/news/articles/c9vm4jrrp99o)**
+- **[Keith Flint mural in Braintree to be restored to former glory](https://www.bbc.com/news/articles/cn0j1j9rzneo)**
+- **[New roof to protect 'much-loved' Plowright Theatre in Scunthorpe](https://www.bbc.com/news/articles/cly4nnn9yzzo)**
+- **[Plan to remove Devon theatre sign causes controversy](https://www.bbc.com/news/articles/c86pwy84wxpo)**
+- **[Droitwich Spa: Rik Mayall mural unveiled in hometown](https://www.bbc.com/news/articles/c2erx2exk87o)**
+- **[Westminster visit to highlight Hull's culture strategy](https://www.bbc.com/news/articles/clyz2q5dq2eo)**
+- **[Consett Empire reduced hours 'protects venue'](https://www.bbc.com/news/articles/cz61l7pg3j8o)**
+### Technology
+- **[Apple AI tool transcribed the word 'racist' as 'Trump'](https://www.bbc.com/news/articles/c5ymvjjqzmeo)**
+- **[Wonder Woman game axed as Warner Bros cuts three studios](https://www.bbc.com/news/articles/c0q1w9q1qvyo)**
+- **[Technicolor: Historic visual effects studio collapses in UK](https://www.bbc.com/news/articles/c89yxk1egkgo)**
+- **[Virgin Media internet restored after earlier outage](https://www.bbc.com/news/articles/cy05n9xn1nqo)**
+- **[Medical trial helps paralysed Bedfordshire woman be a mum again](https://www.bbc.com/news/articles/ckg87l62ywjo)**
+- **[Apple pulls data protection tool after UK government security row](https://www.bbc.com/news/articles/cgj54eq4vejo)**
+- **[Coinbase boss claims SEC will drop crypto lawsuit](https://www.bbc.com/news/articles/cgm1g37p1z8o)**
+- **[Tesla shares slump after European sales fall](https://www.bbc.com/news/articles/cvgd9v3r69qo)**
+- **[What Apple pulling UK Advanced Data Protection means for you](https://www.bbc.com/news/articles/cn524lx9445o)**
+- **[Cancer scans could be revolutionised by nuclear start-up](https://www.bbc.com/news/articles/c1kjmm3n427o)**
+- **[University of Surrey raises £70.3m to help disadvantaged students](https://www.bbc.com/news/articles/cgq90vv9zv5o)**
+- **[Apple boss Tim Cook says DEI programmes may have to change](https://www.bbc.com/news/articles/clyjv8e49deo)**
+- **[How accurate are the viral TikTok AI POV lab history videos?](https://www.bbc.com/news/articles/cy87076pdw3o)**
+- **[Mobile phone theft: What to do if your device is stolen](https://www.bbc.com/news/articles/cwygwnvdq23o)**
+- **[Women's abuse online: 'I get trolled every second, every day'](https://www.bbc.com/news/articles/c625z3xgyv1o)**
+- **[Learning to code "will seriously change your life"](https://www.bbc.com/news/business-56194958)**
+### Business
+- **[Tesla shares slump after European sales fall](https://www.bbc.com/news/articles/cvgd9v3r69qo)**
+- **[India: A billion people have no real money to spend, says report](https://www.bbc.com/news/articles/c8rk5d7ekjmo)**
+- **[Trump orders probe of copper in first step to tariffs](https://www.bbc.com/news/articles/c5yxv0yj40ko)**
+- **[Kidney trade: Myanmar villagers fly to India to sell organs illegally](https://www.bbc.com/news/articles/ckgy8p3pe71o)**
+- **[Singapore's biggest bank DBS to cut 4,000 roles as it embraces AI](https://www.bbc.com/news/articles/c4g7xn9y64po)**
+- **[Theranos founder Elizabeth Holmes loses fraud appeal](https://www.bbc.com/news/articles/c1jpg0069wgo)**
+- **[Putin offers Russian and Ukrainian rare minerals to US](https://www.bbc.com/news/articles/c4gdx7488g5o)**
+- **[Apple AI tool transcribed the word 'racist' as 'Trump'](https://www.bbc.com/news/articles/c5ymvjjqzmeo)**
+- **[BP shuns renewables in return to oil and gas](https://www.bbc.com/news/articles/c3374ekd11po)**
+- **[US House narrowly passes Trump-backed spending bill](https://www.bbc.com/news/articles/cp9yx7e13ryo)**
+- **[Wonder Woman game axed as Warner Bros cuts three studios](https://www.bbc.com/news/articles/c0q1w9q1qvyo)**
+- **[Ukraine PM says minerals deal agreed with US](https://www.bbc.com/news/articles/c337461n3xlo)**
+- **[Who is Doge's official leader? White House won't say it's Musk](https://www.bbc.com/news/articles/c2erg38vjx8o)**
+- **[Countries compete to keep skilled young workers](https://www.bbc.com/news/articles/cj30xr1vy2lo)**
+- **[Apple boss Tim Cook says DEI programmes may have to change](https://www.bbc.com/news/articles/clyjv8e49deo)**
+### Travel
+- **[Ridge Hill grass landing strip planning exemption refused](https://www.bbc.com/news/articles/cy83x20l3nzo)**
+- **[Dead body placed beside Australian couple on Qatar Airways flight](https://www.bbc.com/news/articles/cz03l18jv97o)**
+- **[London: St James's Palace to open to the public for first time](https://www.bbc.com/news/articles/c62z77edl33o)**
+- **[Isle of Man to introduce digital travel permit in late 2025](https://www.bbc.com/news/articles/cq6y4en6przo)**
+- **[New career at 50 for trainee EasyJet cabin crew](https://www.bbc.com/news/articles/cx2gyrvl55lo)**
+- **[Park warning after escaped python sightings](https://www.bbc.com/news/articles/cx2lmnl2gdvo)**
+- **[Royal python found abandoned outside block of flats](https://www.bbc.com/news/articles/czx8qxdqr75o)**
