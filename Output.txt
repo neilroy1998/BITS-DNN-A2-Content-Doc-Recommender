@@ -1,669 +1,464 @@
-Loading and preprocessing documents...
-Extracting text from file:  bbc_articles/innovation/innovation_news_10.pdf
-Extracting text from file:  bbc_articles/innovation/innovation_news_8.pdf
-Extracting text from file:  bbc_articles/innovation/innovation_news_9.pdf
-Extracting text from file:  bbc_articles/innovation/innovation_news_4.pdf
-Extracting text from file:  bbc_articles/innovation/innovation_news_5.pdf
-Extracting text from file:  bbc_articles/innovation/innovation_news_7.pdf
-Extracting text from file:  bbc_articles/innovation/innovation_news_6.pdf
-Extracting text from file:  bbc_articles/innovation/innovation_news_2.pdf
-Extracting text from file:  bbc_articles/innovation/innovation_news_3.pdf
-Extracting text from file:  bbc_articles/innovation/innovation_news_1.pdf
-Extracting text from file:  bbc_articles/innovation/innovation_news_0.pdf
-Extracting text from file:  bbc_articles/arts/arts_news_0.pdf
-Extracting text from file:  bbc_articles/arts/arts_news_1.pdf
-Extracting text from file:  bbc_articles/arts/arts_news_3.pdf
-Extracting text from file:  bbc_articles/arts/arts_news_2.pdf
-Extracting text from file:  bbc_articles/arts/arts_news_6.pdf
-Extracting text from file:  bbc_articles/arts/arts_news_7.pdf
-Extracting text from file:  bbc_articles/arts/arts_news_5.pdf
-Extracting text from file:  bbc_articles/arts/arts_news_4.pdf
-Extracting text from file:  bbc_articles/arts/arts_news_9.pdf
-Extracting text from file:  bbc_articles/arts/arts_news_8.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_15.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_5.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_4.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_14.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_6.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_16.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_7.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_3.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_13.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_12.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_2.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_10.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_0.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_1.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_11.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_9.pdf
-Extracting text from file:  bbc_articles/technology/technology_news_8.pdf
-Extracting text from file:  bbc_articles/business/business_news_9.pdf
-Extracting text from file:  bbc_articles/business/business_news_8.pdf
-Extracting text from file:  bbc_articles/business/business_news_3.pdf
-Extracting text from file:  bbc_articles/business/business_news_2.pdf
-Extracting text from file:  bbc_articles/business/business_news_0.pdf
-Extracting text from file:  bbc_articles/business/business_news_1.pdf
-Extracting text from file:  bbc_articles/business/business_news_5.pdf
-Extracting text from file:  bbc_articles/business/business_news_4.pdf
-Extracting text from file:  bbc_articles/business/business_news_6.pdf
-Extracting text from file:  bbc_articles/business/business_news_7.pdf
-Extracting text from file:  bbc_articles/business/business_news_13.pdf
-Extracting text from file:  bbc_articles/business/business_news_12.pdf
-Extracting text from file:  bbc_articles/business/business_news_10.pdf
-Extracting text from file:  bbc_articles/business/business_news_11.pdf
-Extracting text from file:  bbc_articles/business/business_news_14.pdf
-Extracting text from file:  bbc_articles/travel/travel_news_0.pdf
-Extracting text from file:  bbc_articles/travel/travel_news_1.pdf
-Extracting text from file:  bbc_articles/travel/travel_news_3.pdf
-Extracting text from file:  bbc_articles/travel/travel_news_2.pdf
-Extracting text from file:  bbc_articles/travel/travel_news_6.pdf
-Extracting text from file:  bbc_articles/travel/travel_news_5.pdf
-Extracting text from file:  bbc_articles/travel/travel_news_4.pdf
-Loaded 60 documents from bbc_articles
 
-Building inverted index and calculating TF-IDF scores...
-Top 10 terms in the inverted index:
-==================================================
-Term                 Doc Count  Documents
---------------------------------------------------
-privaci              60         [0, 1, 2, 3, 4]...
-pm                   60         [0, 1, 2, 3, 4]...
-share                60         [0, 1, 2, 3, 4]...
-use                  60         [0, 1, 2, 3, 4]...
-ago                  60         [0, 1, 2, 3, 4]...
-copyright            60         [0, 1, 2, 3, 4]...
-term                 60         [0, 1, 2, 3, 4]...
-polici               60         [0, 1, 2, 3, 4]...
-approach             60         [0, 1, 2, 3, 4]...
-link                 60         [0, 1, 2, 3, 4]...
-
-Initializing user profiles...
-Created 2 user profiles
-
-Top interests for Tech & Programming Enthusiast (user01):
-  python: 0.0882
-  new: 0.0588
-  program: 0.0588
-  languag: 0.0588
-  appl: 0.0294
-  product: 0.0294
-  artifici: 0.0294
-  intellig: 0.0294
-  applic: 0.0294
-  latest: 0.0294
-
-Top interests for Nature & Wildlife Enthusiast (user02):
-  art: 0.0645
-  anim: 0.0645
-  wildlif: 0.0645
-  snake: 0.0645
-  natur: 0.0645
-  exhibit: 0.0323
-  near: 0.0323
-  exot: 0.0323
-  rainforest: 0.0323
-  photographi: 0.0323
-
-Testing search functionality with personalization...
-
-Search Query: 'python' (should show different results for each user)
-
-Regular Search Results (no personalization):
-Found 4 matching documents.
-================================================================================
-Rank 1: travel/travel_news_6.pdf [Category: travel]
-Similarity Score: 0.4015
-Snippet: Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
---------------------------------------------------------------------------------
-Rank 2: technology/technology_news_15.pdf [Category: technology]
-Similarity Score: 0.4015
-Snippet: Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
---------------------------------------------------------------------------------
-Rank 3: travel/travel_news_5.pdf [Category: travel]
-Similarity Score: 0.1861
-Snippet: Park warning after escaped python sightings 13 August 2024Share Save Fosiya Ismail BBC News, West Midlands Getty Images Park visitors were urged not t...
---------------------------------------------------------------------------------
-Rank 4: technology/technology_news_16.pdf [Category: technology]
-Similarity Score: 0.0456
-Snippet: Learning to code 'will seriously change your life' 26 March 2021Share Save Michael Winrow Technology of Business reporter Hannah Blair Hannah Blair st...
---------------------------------------------------------------------------------
-
-Personalized Results for Tech & Programming Enthusiast (user01):
-Personalized results for Tech & Programming Enthusiast (user_id: user01)
-Found 4 matching documents.
-================================================================================
-Rank 1: travel/travel_news_6.pdf [Category: travel]
-Similarity Score: 0.2835
-Snippet: Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
---------------------------------------------------------------------------------
-Rank 2: technology/technology_news_15.pdf [Category: technology]
-Similarity Score: 0.2835
-Snippet: Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
---------------------------------------------------------------------------------
-Rank 3: travel/travel_news_5.pdf [Category: travel]
-Similarity Score: 0.1324
-Snippet: Park warning after escaped python sightings 13 August 2024Share Save Fosiya Ismail BBC News, West Midlands Getty Images Park visitors were urged not t...
---------------------------------------------------------------------------------
-Rank 4: technology/technology_news_16.pdf [Category: technology] [Matches your interests]
-Similarity Score: 0.0367
-Snippet: Learning to code 'will seriously change your life' 26 March 2021Share Save Michael Winrow Technology of Business reporter Hannah Blair Hannah Blair st...
---------------------------------------------------------------------------------
-
-Personalized Results for Nature & Wildlife Enthusiast (user02):
-Personalized results for Nature & Wildlife Enthusiast (user_id: user02)
-Found 4 matching documents.
-================================================================================
-Rank 1: travel/travel_news_6.pdf [Category: travel] [Matches your interests]
-Similarity Score: 0.2853
-Snippet: Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
---------------------------------------------------------------------------------
-Rank 2: technology/technology_news_15.pdf [Category: technology] [Matches your interests]
-Similarity Score: 0.2853
-Snippet: Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
---------------------------------------------------------------------------------
-Rank 3: travel/travel_news_5.pdf [Category: travel] [Matches your interests]
-Similarity Score: 0.1344
-Snippet: Park warning after escaped python sightings 13 August 2024Share Save Fosiya Ismail BBC News, West Midlands Getty Images Park visitors were urged not t...
---------------------------------------------------------------------------------
-Rank 4: technology/technology_news_16.pdf [Category: technology]
-Similarity Score: 0.0327
-Snippet: Learning to code 'will seriously change your life' 26 March 2021Share Save Michael Winrow Technology of Business reporter Hannah Blair Hannah Blair st...
---------------------------------------------------------------------------------
-
-Search Query: 'technology and artificial intelligence'
-
-Regular Search Results (no personalization):
-Found 31 matching documents.
-================================================================================
-Rank 1: innovation/innovation_news_9.pdf [Category: innovation]
-Similarity Score: 0.0666
-Snippet: Apple commits to $500bn US investment 1 day ago Natalie Sherman Business reporter, BBC News Getty Images Apple plans to invest more than $500bn (£396b...
---------------------------------------------------------------------------------
-Rank 2: innovation/innovation_news_1.pdf [Category: innovation]
-Similarity Score: 0.0637
-Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
---------------------------------------------------------------------------------
-Rank 3: technology/technology_news_0.pdf [Category: technology]
-Similarity Score: 0.0637
-Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
---------------------------------------------------------------------------------
-Rank 4: business/business_news_2.pdf [Category: business]
-Similarity Score: 0.0637
-Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
---------------------------------------------------------------------------------
-Rank 5: innovation/innovation_news_8.pdf [Category: innovation]
-Similarity Score: 0.0563
-Snippet: Major Asia bank to cut 4,000 roles as AI replaces humans 1 day ago Peter Hoskins Business reporter Getty Images Singapore's biggest bank, DBS, says it...
---------------------------------------------------------------------------------
-
-Personalized Results for Tech & Programming Enthusiast (user01):
-Personalized results for Tech & Programming Enthusiast (user_id: user01)
-Found 31 matching documents.
-================================================================================
-Rank 1: innovation/innovation_news_9.pdf [Category: innovation] [Matches your interests]
-Similarity Score: 0.0517
-Snippet: Apple commits to $500bn US investment 1 day ago Natalie Sherman Business reporter, BBC News Getty Images Apple plans to invest more than $500bn (£396b...
---------------------------------------------------------------------------------
-Rank 2: innovation/innovation_news_1.pdf [Category: innovation] [Matches your interests]
-Similarity Score: 0.0508
-Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
---------------------------------------------------------------------------------
-Rank 3: technology/technology_news_0.pdf [Category: technology] [Matches your interests]
-Similarity Score: 0.0508
-Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
---------------------------------------------------------------------------------
-Rank 4: business/business_news_2.pdf [Category: business] [Matches your interests]
-Similarity Score: 0.0508
-Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
---------------------------------------------------------------------------------
-Rank 5: innovation/innovation_news_8.pdf [Category: innovation] [Matches your interests]
-Similarity Score: 0.0424
-Snippet: Major Asia bank to cut 4,000 roles as AI replaces humans 1 day ago Peter Hoskins Business reporter Getty Images Singapore's biggest bank, DBS, says it...
---------------------------------------------------------------------------------
-
-Personalized Results for Nature & Wildlife Enthusiast (user02):
-Personalized results for Nature & Wildlife Enthusiast (user_id: user02)
-Found 31 matching documents.
-================================================================================
-Rank 1: innovation/innovation_news_9.pdf [Category: innovation]
-Similarity Score: 0.0471
-Snippet: Apple commits to $500bn US investment 1 day ago Natalie Sherman Business reporter, BBC News Getty Images Apple plans to invest more than $500bn (£396b...
---------------------------------------------------------------------------------
-Rank 2: innovation/innovation_news_1.pdf [Category: innovation]
-Similarity Score: 0.0446
-Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
---------------------------------------------------------------------------------
-Rank 3: technology/technology_news_0.pdf [Category: technology]
-Similarity Score: 0.0446
-Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
---------------------------------------------------------------------------------
-Rank 4: business/business_news_2.pdf [Category: business]
-Similarity Score: 0.0446
-Snippet: Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its...
---------------------------------------------------------------------------------
-Rank 5: innovation/innovation_news_8.pdf [Category: innovation]
-Similarity Score: 0.0404
-Snippet: Major Asia bank to cut 4,000 roles as AI replaces humans 1 day ago Peter Hoskins Business reporter Getty Images Singapore's biggest bank, DBS, says it...
---------------------------------------------------------------------------------
-
-Search Query: 'travel destinations in Europe'
-
-Regular Search Results (no personalization):
-Found 28 matching documents.
-================================================================================
-Rank 1: travel/travel_news_3.pdf [Category: travel]
-Similarity Score: 0.1824
-Snippet: Digital travel permit to be introduced in late 2025 1 day ago Ashlea Tracey BBC News, Isle of Man Manx Scenes The schem e m irrors the system introduc...
---------------------------------------------------------------------------------
-Rank 2: travel/travel_news_4.pdf [Category: travel]
-Similarity Score: 0.0408
-Snippet: The over-50s flying high after airline appeal 1 day ago Jody Sabral BBC News, South East Jody Sabral/BBC Race Welch, a retired grandfather, has joined...
---------------------------------------------------------------------------------
-Rank 3: business/business_news_10.pdf [Category: business]
-Similarity Score: 0.0210
-Snippet: Trump orders copper probe in first step to tariffs 15 hours ago Natalie Sherman BBC News Getty Images US President Donald Trump has ordered an investi...
---------------------------------------------------------------------------------
-Rank 4: travel/travel_news_0.pdf [Category: travel]
-Similarity Score: 0.0195
-Snippet: Farm landing strip has planning exemption refused 1 hour ago Trevor Bevins Local Democracy Reporting Service Court Farm Dorset Council refused to gran...
---------------------------------------------------------------------------------
-Rank 5: travel/travel_news_1.pdf [Category: travel]
-Similarity Score: 0.0174
-Snippet: Couple's trauma after body placed next to them on flight 3 hours ago Maia Davies BBC News Watch: Mitchell Ring and Jennifer Colin speak to A Current A...
---------------------------------------------------------------------------------
-
-Personalized Results for Tech & Programming Enthusiast (user01):
-Personalized results for Tech & Programming Enthusiast (user_id: user01)
-Found 28 matching documents.
-================================================================================
-Rank 1: travel/travel_news_3.pdf [Category: travel]
-Similarity Score: 0.1285
-Snippet: Digital travel permit to be introduced in late 2025 1 day ago Ashlea Tracey BBC News, Isle of Man Manx Scenes The schem e m irrors the system introduc...
---------------------------------------------------------------------------------
-Rank 2: travel/travel_news_4.pdf [Category: travel]
-Similarity Score: 0.0295
-Snippet: The over-50s flying high after airline appeal 1 day ago Jody Sabral BBC News, South East Jody Sabral/BBC Race Welch, a retired grandfather, has joined...
---------------------------------------------------------------------------------
-Rank 3: business/business_news_10.pdf [Category: business] [Matches your interests]
-Similarity Score: 0.0169
-Snippet: Trump orders copper probe in first step to tariffs 15 hours ago Natalie Sherman BBC News Getty Images US President Donald Trump has ordered an investi...
---------------------------------------------------------------------------------
-Rank 4: innovation/innovation_news_9.pdf [Category: innovation] [Matches your interests]
-Similarity Score: 0.0158
-Snippet: Apple commits to $500bn US investment 1 day ago Natalie Sherman Business reporter, BBC News Getty Images Apple plans to invest more than $500bn (£396b...
---------------------------------------------------------------------------------
-Rank 5: travel/travel_news_0.pdf [Category: travel]
-Similarity Score: 0.0142
-Snippet: Farm landing strip has planning exemption refused 1 hour ago Trevor Bevins Local Democracy Reporting Service Court Farm Dorset Council refused to gran...
---------------------------------------------------------------------------------
-
-Personalized Results for Nature & Wildlife Enthusiast (user02):
-Personalized results for Nature & Wildlife Enthusiast (user_id: user02)
-Found 28 matching documents.
-================================================================================
-Rank 1: travel/travel_news_3.pdf [Category: travel]
-Similarity Score: 0.1277
-Snippet: Digital travel permit to be introduced in late 2025 1 day ago Ashlea Tracey BBC News, Isle of Man Manx Scenes The schem e m irrors the system introduc...
---------------------------------------------------------------------------------
-Rank 2: travel/travel_news_4.pdf [Category: travel]
-Similarity Score: 0.0291
-Snippet: The over-50s flying high after airline appeal 1 day ago Jody Sabral BBC News, South East Jody Sabral/BBC Race Welch, a retired grandfather, has joined...
---------------------------------------------------------------------------------
-Rank 3: business/business_news_10.pdf [Category: business]
-Similarity Score: 0.0147
-Snippet: Trump orders copper probe in first step to tariffs 15 hours ago Natalie Sherman BBC News Getty Images US President Donald Trump has ordered an investi...
---------------------------------------------------------------------------------
-Rank 4: travel/travel_news_0.pdf [Category: travel]
-Similarity Score: 0.0142
-Snippet: Farm landing strip has planning exemption refused 1 hour ago Trevor Bevins Local Democracy Reporting Service Court Farm Dorset Council refused to gran...
---------------------------------------------------------------------------------
-Rank 5: arts/arts_news_2.pdf [Category: arts]
-Similarity Score: 0.0135
-Snippet: Sites sought for Ukranian bombed door sculpture 3 hours ago Robert Marshall The mangled front door from a destroyed house in eastern Ukraine has a gap...
---------------------------------------------------------------------------------
-
-Search Query: 'art exhibitions and culture'
-
-Regular Search Results (no personalization):
-Found 21 matching documents.
-================================================================================
-Rank 1: arts/arts_news_3.pdf [Category: arts]
-Similarity Score: 0.4026
-Snippet: Abuse survivors' art is 'relief from a monster' 6 hours ago Sophie Parker BBC News, Wiltshire Wiltshire Council The exhibition has work on display fro...
---------------------------------------------------------------------------------
-Rank 2: arts/arts_news_8.pdf [Category: arts]
-Similarity Score: 0.2001
-Snippet: Westminster visit to highlight city's culture 1 day ago PA Media Hull was the UK City of Culture in 2017 Delegates from Hull are appearing at an event...
---------------------------------------------------------------------------------
-Rank 3: arts/arts_news_0.pdf [Category: arts]
-Similarity Score: 0.1938
-Snippet: £50k reward for 'great' artist Orlik's missing works 18 February 2025 Sophie Parker BBC News, Wiltshire Henry OrlikHomeNewsSportBusinessInnovationCult...
---------------------------------------------------------------------------------
-Rank 4: arts/arts_news_4.pdf [Category: arts]
-Similarity Score: 0.0390
-Snippet: Keith Flint mural to be restored to former glory 21 hours ago George King BBC News, Essex Jaime Bunting Photography The Keith Flint mural at Braintree...
---------------------------------------------------------------------------------
-Rank 5: arts/arts_news_2.pdf [Category: arts]
-Similarity Score: 0.0367
-Snippet: Sites sought for Ukranian bombed door sculpture 3 hours ago Robert Marshall The mangled front door from a destroyed house in eastern Ukraine has a gap...
---------------------------------------------------------------------------------
-
-Personalized Results for Tech & Programming Enthusiast (user01):
-Personalized results for Tech & Programming Enthusiast (user_id: user01)
-Found 21 matching documents.
-================================================================================
-Rank 1: arts/arts_news_3.pdf [Category: arts]
-Similarity Score: 0.2826
-Snippet: Abuse survivors' art is 'relief from a monster' 6 hours ago Sophie Parker BBC News, Wiltshire Wiltshire Council The exhibition has work on display fro...
---------------------------------------------------------------------------------
-Rank 2: arts/arts_news_8.pdf [Category: arts]
-Similarity Score: 0.1419
-Snippet: Westminster visit to highlight city's culture 1 day ago PA Media Hull was the UK City of Culture in 2017 Delegates from Hull are appearing at an event...
---------------------------------------------------------------------------------
-Rank 3: arts/arts_news_0.pdf [Category: arts]
-Similarity Score: 0.1363
-Snippet: £50k reward for 'great' artist Orlik's missing works 18 February 2025 Sophie Parker BBC News, Wiltshire Henry OrlikHomeNewsSportBusinessInnovationCult...
---------------------------------------------------------------------------------
-Rank 4: arts/arts_news_4.pdf [Category: arts]
-Similarity Score: 0.0277
-Snippet: Keith Flint mural to be restored to former glory 21 hours ago George King BBC News, Essex Jaime Bunting Photography The Keith Flint mural at Braintree...
---------------------------------------------------------------------------------
-Rank 5: arts/arts_news_2.pdf [Category: arts]
-Similarity Score: 0.0257
-Snippet: Sites sought for Ukranian bombed door sculpture 3 hours ago Robert Marshall The mangled front door from a destroyed house in eastern Ukraine has a gap...
---------------------------------------------------------------------------------
-
-Personalized Results for Nature & Wildlife Enthusiast (user02):
-Personalized results for Nature & Wildlife Enthusiast (user_id: user02)
-Found 21 matching documents.
-================================================================================
-Rank 1: arts/arts_news_3.pdf [Category: arts]
-Similarity Score: 0.2831
-Snippet: Abuse survivors' art is 'relief from a monster' 6 hours ago Sophie Parker BBC News, Wiltshire Wiltshire Council The exhibition has work on display fro...
---------------------------------------------------------------------------------
-Rank 2: arts/arts_news_8.pdf [Category: arts]
-Similarity Score: 0.1421
-Snippet: Westminster visit to highlight city's culture 1 day ago PA Media Hull was the UK City of Culture in 2017 Delegates from Hull are appearing at an event...
---------------------------------------------------------------------------------
-Rank 3: arts/arts_news_0.pdf [Category: arts]
-Similarity Score: 0.1372
-Snippet: £50k reward for 'great' artist Orlik's missing works 18 February 2025 Sophie Parker BBC News, Wiltshire Henry OrlikHomeNewsSportBusinessInnovationCult...
---------------------------------------------------------------------------------
-Rank 4: arts/arts_news_4.pdf [Category: arts]
-Similarity Score: 0.0286
-Snippet: Keith Flint mural to be restored to former glory 21 hours ago George King BBC News, Essex Jaime Bunting Photography The Keith Flint mural at Braintree...
---------------------------------------------------------------------------------
-Rank 5: arts/arts_news_2.pdf [Category: arts]
-Similarity Score: 0.0271
-Snippet: Sites sought for Ukranian bombed door sculpture 3 hours ago Robert Marshall The mangled front door from a destroyed house in eastern Ukraine has a gap...
---------------------------------------------------------------------------------
-
-Evaluating search performance...
-
-Performance for generic search (no personalization):
-
-DETAILED EVALUATION LOGS:
 ======================================================================
-Number of test queries: 3
-
-Query 0: 'artificial intelligence'
-Number of relevant documents defined: 28
-Number of documents retrieved: 13
-Intersection size: 9
-Precision: 0.6923
-Recall: 0.3214
-F1 Score: 0.4390
-
-Precision at rank calculation:
-  Rank 1: Document 2 is relevant, precision at 1 = 1.0000
-  Rank 2: Document 33 is relevant, precision at 2 = 1.0000
-  Rank 3: Document 9 is relevant, precision at 3 = 1.0000
-  Rank 4: Document 41 is not relevant
-  Rank 5: Document 4 is relevant, precision at 5 = 0.8000
-  Rank 6: Document 22 is relevant, precision at 6 = 0.8333
-  Rank 7: Document 1 is relevant, precision at 7 = 0.8571
-  Rank 8: Document 49 is not relevant
-  Rank 9: Document 34 is relevant, precision at 9 = 0.7778
-  Rank 10: Document 44 is not relevant
-  Rank 11: Document 43 is not relevant
-  Rank 12: Document 0 is relevant, precision at 12 = 0.6667
-  Rank 13: Document 27 is relevant, precision at 13 = 0.6923
-Average Precision: 0.2724
-
-Query 1: 'museums cultural exhibition'
-Number of relevant documents defined: 17
-Number of documents retrieved: 18
-Intersection size: 6
-Precision: 0.3333
-Recall: 0.3529
-F1 Score: 0.3429
-
-Precision at rank calculation:
-  Rank 1: Document 13 is relevant, precision at 1 = 1.0000
-  Rank 2: Document 20 is relevant, precision at 2 = 1.0000
-  Rank 3: Document 11 is relevant, precision at 3 = 1.0000
-  Rank 4: Document 19 is relevant, precision at 4 = 1.0000
-  Rank 5: Document 0 is not relevant
-  Rank 6: Document 38 is not relevant
-  Rank 7: Document 10 is not relevant
-  Rank 8: Document 25 is not relevant
-  Rank 9: Document 18 is relevant, precision at 9 = 0.5556
-  Rank 10: Document 4 is not relevant
-  Rank 11: Document 22 is not relevant
-  Rank 12: Document 1 is not relevant
-  Rank 13: Document 49 is not relevant
-  Rank 14: Document 30 is not relevant
-  Rank 15: Document 17 is relevant, precision at 15 = 0.4000
-  Rank 16: Document 5 is not relevant
-  Rank 17: Document 36 is not relevant
-  Rank 18: Document 27 is not relevant
-Average Precision: 0.2915
-
-Query 2: 'python'
-Number of relevant documents defined: 4
-Number of documents retrieved: 4
-Intersection size: 4
-Precision: 1.0000
-Recall: 1.0000
-F1 Score: 1.0000
-
-Precision at rank calculation:
-  Rank 1: Document 57 is relevant, precision at 1 = 1.0000
-  Rank 2: Document 21 is relevant, precision at 2 = 1.0000
-  Rank 3: Document 58 is relevant, precision at 3 = 1.0000
-  Rank 4: Document 26 is relevant, precision at 4 = 1.0000
-Average Precision: 1.0000
-
-Average precision: 0.6752
-
-Average recall: 0.5581
-
-Average f1_score: 0.5940
-
-Average avg_precision: 0.5213
-Search System Performance Evaluation
-==================================================
-Average Precision: 0.6752
-Average Recall: 0.5581
-Average F1 Score: 0.5940
-Mean Average Precision (MAP): 0.5213
-
-Performance for Tech & Programming Enthusiast (user01):
-
-DETAILED EVALUATION LOGS:
+A. LOADING AND PREPROCESSING DOCUMENTS
 ======================================================================
-Number of test queries: 3
-Evaluation for user: Tech & Programming Enthusiast (user_id: user01)
+Loaded 59 documents from bbc_articles
 
-Query 0: 'artificial intelligence'
-Number of relevant documents defined: 28
-Number of documents retrieved: 13
-Intersection size: 9
-Precision: 0.6923
-Recall: 0.3214
-F1 Score: 0.4390
+Sample of loaded documents:
+Document [0]: innovation/innovation_news_10.pdf (innovation)
+Document [1]: innovation/innovation_news_8.pdf (innovation)
+Document [2]: innovation/innovation_news_9.pdf (innovation)
+Document [3]: innovation/innovation_news_4.pdf (innovation)
+Document [4]: innovation/innovation_news_5.pdf (innovation)
 
-Precision at rank calculation:
-  Rank 1: Document 2 is relevant, precision at 1 = 1.0000
-  Rank 2: Document 33 is relevant, precision at 2 = 1.0000
-  Rank 3: Document 9 is relevant, precision at 3 = 1.0000
-  Rank 4: Document 41 is not relevant
-  Rank 5: Document 4 is relevant, precision at 5 = 0.8000
-  Rank 6: Document 22 is relevant, precision at 6 = 0.8333
-  Rank 7: Document 1 is relevant, precision at 7 = 0.8571
-  Rank 8: Document 49 is not relevant
-  Rank 9: Document 34 is relevant, precision at 9 = 0.7778
-  Rank 10: Document 44 is not relevant
-  Rank 11: Document 43 is not relevant
-  Rank 12: Document 0 is relevant, precision at 12 = 0.6667
-  Rank 13: Document 27 is relevant, precision at 13 = 0.6923
-Average Precision: 0.2724
+Sample of preprocessed documents:
+Document [0]: innovation/innovation_news_10.pdf
+  Sample tokens: ['artist', 'releas', 'silent', 'album', 'protest', 'ai', 'use', 'work', 'day', 'ago']...
+  Total tokens: 711
+Document [1]: innovation/innovation_news_8.pdf
+  Sample tokens: ['major', 'asia', 'bank', 'cut', 'role', 'ai', 'replac', 'human', 'day', 'ago']...
+  Total tokens: 423
+Document [2]: innovation/innovation_news_9.pdf
+  Sample tokens: ['appl', 'commit', 'us', 'invest', 'day', 'ago', 'natali', 'sherman', 'busi', 'report']...
+  Total tokens: 507
 
-Query 1: 'museums cultural exhibition'
-Number of relevant documents defined: 17
-Number of documents retrieved: 18
-Intersection size: 6
-Precision: 0.3333
-Recall: 0.3529
-F1 Score: 0.3429
-
-Precision at rank calculation:
-  Rank 1: Document 13 is relevant, precision at 1 = 1.0000
-  Rank 2: Document 20 is relevant, precision at 2 = 1.0000
-  Rank 3: Document 11 is relevant, precision at 3 = 1.0000
-  Rank 4: Document 19 is relevant, precision at 4 = 1.0000
-  Rank 5: Document 0 is not relevant
-  Rank 6: Document 38 is not relevant
-  Rank 7: Document 10 is not relevant
-  Rank 8: Document 25 is not relevant
-  Rank 9: Document 18 is relevant, precision at 9 = 0.5556
-  Rank 10: Document 4 is not relevant
-  Rank 11: Document 22 is not relevant
-  Rank 12: Document 1 is not relevant
-  Rank 13: Document 49 is not relevant
-  Rank 14: Document 30 is not relevant
-  Rank 15: Document 17 is relevant, precision at 15 = 0.4000
-  Rank 16: Document 5 is not relevant
-  Rank 17: Document 36 is not relevant
-  Rank 18: Document 27 is not relevant
-Average Precision: 0.2915
-
-Query 2: 'python'
-Number of relevant documents defined: 1
-Number of documents retrieved: 4
-Intersection size: 1
-Precision: 0.2500
-Recall: 1.0000
-F1 Score: 0.4000
-
-Precision at rank calculation:
-  Rank 1: Document 57 is not relevant
-  Rank 2: Document 21 is not relevant
-  Rank 3: Document 58 is not relevant
-  Rank 4: Document 26 is relevant, precision at 4 = 0.2500
-Average Precision: 0.2500
-
-Average precision: 0.4252
-
-Average recall: 0.5581
-
-Average f1_score: 0.3940
-
-Average avg_precision: 0.2713
-Search System Performance Evaluation
-==================================================
-Average Precision: 0.4252
-Average Recall: 0.5581
-Average F1 Score: 0.3940
-Mean Average Precision (MAP): 0.2713
-
-Performance for Nature & Wildlife Enthusiast (user02):
-
-DETAILED EVALUATION LOGS:
 ======================================================================
-Number of test queries: 3
-Evaluation for user: Nature & Wildlife Enthusiast (user_id: user02)
+B. BUILDING INVERTED INDEX AND CALCULATING TF-IDF
+======================================================================
 
-Query 0: 'artificial intelligence'
-Number of relevant documents defined: 28
-Number of documents retrieved: 13
-Intersection size: 9
-Precision: 0.6923
-Recall: 0.3214
-F1 Score: 0.4390
+Term Frequencies for a sample document:
+Document [0]: innovation/innovation_news_10.pdf
+Top 10 terms by frequency:
+  ai: 22
+  artist: 19
+  album: 14
+  use: 13
+  silent: 11
+  work: 11
+  releas: 9
+  protest: 9
+  ago: 9
+  plan: 8
 
-Precision at rank calculation:
-  Rank 1: Document 2 is relevant, precision at 1 = 1.0000
-  Rank 2: Document 33 is relevant, precision at 2 = 1.0000
-  Rank 3: Document 9 is relevant, precision at 3 = 1.0000
-  Rank 4: Document 41 is not relevant
-  Rank 5: Document 4 is relevant, precision at 5 = 0.8000
-  Rank 6: Document 22 is relevant, precision at 6 = 0.8333
-  Rank 7: Document 1 is relevant, precision at 7 = 0.8571
-  Rank 8: Document 49 is not relevant
-  Rank 9: Document 34 is relevant, precision at 9 = 0.7778
-  Rank 10: Document 44 is not relevant
-  Rank 11: Document 43 is not relevant
-  Rank 12: Document 0 is relevant, precision at 12 = 0.6667
-  Rank 13: Document 27 is relevant, precision at 13 = 0.6923
-Average Precision: 0.2724
 
-Query 1: 'museums cultural exhibition'
-Number of relevant documents defined: 17
-Number of documents retrieved: 18
-Intersection size: 6
-Precision: 0.3333
-Recall: 0.3529
-F1 Score: 0.3429
+TF-IDF Scores for a sample document:
+Document [0]: innovation/innovation_news_10.pdf
+Top 10 terms by TF-IDF score:
+  album: 0.0182
+  artist: 0.0176
+  musician: 0.0174
+  ai: 0.0145
+  silent: 0.0143
+  releas: 0.0110
+  record: 0.0075
+  protest: 0.0075
+  paul: 0.0066
+  ed: 0.0062
 
-Precision at rank calculation:
-  Rank 1: Document 13 is relevant, precision at 1 = 1.0000
-  Rank 2: Document 20 is relevant, precision at 2 = 1.0000
-  Rank 3: Document 11 is relevant, precision at 3 = 1.0000
-  Rank 4: Document 19 is relevant, precision at 4 = 1.0000
-  Rank 5: Document 0 is not relevant
-  Rank 6: Document 38 is not relevant
-  Rank 7: Document 10 is not relevant
-  Rank 8: Document 25 is not relevant
-  Rank 9: Document 18 is relevant, precision at 9 = 0.5556
-  Rank 10: Document 4 is not relevant
-  Rank 11: Document 22 is not relevant
-  Rank 12: Document 1 is not relevant
-  Rank 13: Document 49 is not relevant
-  Rank 14: Document 30 is not relevant
-  Rank 15: Document 17 is relevant, precision at 15 = 0.4000
-  Rank 16: Document 27 is not relevant
-  Rank 17: Document 5 is not relevant
-  Rank 18: Document 36 is not relevant
-Average Precision: 0.2915
+======================================================================
+C. DOCUMENT SIMILARITY DEMONSTRATION
+======================================================================
 
-Query 2: 'python'
-Number of relevant documents defined: 3
-Number of documents retrieved: 4
-Intersection size: 3
-Precision: 0.7500
-Recall: 1.0000
-F1 Score: 0.8571
+Finding similar documents to: [0] innovation/innovation/innovation_news_10.pdf
 
-Precision at rank calculation:
-  Rank 1: Document 57 is relevant, precision at 1 = 1.0000
-  Rank 2: Document 21 is relevant, precision at 2 = 1.0000
-  Rank 3: Document 58 is relevant, precision at 3 = 1.0000
-  Rank 4: Document 26 is not relevant
-Average Precision: 1.0000
+Top 5 most similar documents to [0]:
+----------------------------------------------------------------------
+1. Document [1]: innovation/innovation_news_8.pdf - Similarity: 0.1435
+2. Document [48]: business/business_news_12.pdf - Similarity: 0.1435
+3. Document [4]: innovation/innovation_news_5.pdf - Similarity: 0.1330
+4. Document [22]: technology/technology_news_5.pdf - Similarity: 0.1330
+5. Document [18]: arts/arts_news_4.pdf - Similarity: 0.1234
 
-Average precision: 0.5919
+======================================================================
+D. CREATING USER PROFILES AND DEMONSTRATING PERSONALIZED SEARCH
+======================================================================
 
-Average recall: 0.5581
+Created User Profiles:
 
-Average f1_score: 0.5463
+user_1:
+  Primary interests: ['arts', 'innovation', 'travel']
+  Top categories (in order): ['arts', 'innovation', 'travel']
+  Search history (top 5 of 9):
+    - orlik work art
+    - theatr northamptonshir derngat
+    - wiltshir abus art
+    - ai artist album
+    - ai bank singapor
+  Top terms in interest vector:
+    - art: 6.56
+    - travel: 3.22
+    - innov: 3.00
+    - ai: 2.44
+    - orlik: 2.00
+    - work: 2.00
+    - theatr: 1.78
+    - northamptonshir: 1.78
+    - derngat: 1.78
+    - wiltshir: 1.56
 
-Average avg_precision: 0.5213
-Search System Performance Evaluation
-==================================================
-Average Precision: 0.5919
-Average Recall: 0.5581
-Average F1 Score: 0.5463
-Mean Average Precision (MAP): 0.5213
+user_2:
+  Primary interests: ['business', 'technology']
+  Top categories (in order): ['business', 'technology']
+  Search history (top 5 of 6):
+    - appl dei sharehold
+    - worker tax young
+    - bp oil ga
+    - code learn chang
+    - univers surrey day
+  Top terms in interest vector:
+    - busi: 3.00
+    - technolog: 3.00
+    - appl: 2.00
+    - dei: 2.00
+    - sharehold: 2.00
+    - worker: 1.67
+    - tax: 1.67
+    - young: 1.67
+    - bp: 1.33
+    - oil: 1.33
 
-Recommender System complete.
+Created test queries based on document content:
+1. Query: 'appl dei sharehold' (Category: business)
+2. Query: 'ai artist album' (Category: innovation)
+3. Query: 'code learn chang' (Category: technology)
+4. Query: 'plan dorset use' (Category: travel)
+5. Query: 'orlik work art' (Category: arts)
+
+================================================================================
+SEARCH RESULTS COMPARISON FOR QUERY: 'appl dei sharehold'
+================================================================================
+
+BASELINE (Non-personalized) Results:
+----------------------------------------
+
+Top 5 matching documents:
+----------------------------------------------------------------------
+1. [37] business/business/business_news_9.pdf (Score: 0.6061)
+   Apple boss says its DEI programmes may change 19 hours ago Natalie Sherman BBC News Getty Images Apple boss Tim Cook has said his company may have to ...
+
+2. [10] innovation/innovation/innovation_news_0.pdf (Score: 0.6061)
+   Apple boss says its DEI programmes may change 19 hours ago Natalie Sherman BBC News Getty Images Apple boss Tim Cook has said his company may have to ...
+
+3. [25] technology/technology/technology_news_6.pdf (Score: 0.6061)
+   Apple boss says its DEI programmes may change 17 hours ago Natalie Sherman BBC News Getty Images Apple boss Tim Cook has said his company may have to ...
+
+4. [32] technology/technology/technology_news_0.pdf (Score: 0.3013)
+   Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its ...
+
+5. [9] innovation/innovation/innovation_news_1.pdf (Score: 0.3013)
+   Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its ...
+
+
+USER_1 Personalized Results:
+----------------------------------------
+
+Top 5 matching documents:
+----------------------------------------------------------------------
+1. [10] innovation/innovation/innovation_news_0.pdf (Score: 0.6757)
+   Apple boss says its DEI programmes may change 19 hours ago Natalie Sherman BBC News Getty Images Apple boss Tim Cook has said his company may have to ...
+
+2. [9] innovation/innovation/innovation_news_1.pdf (Score: 0.5033)
+   Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its ...
+
+3. [2] innovation/innovation/innovation_news_9.pdf (Score: 0.4833)
+   Apple commits to $500bn US investment 1 day ago Natalie Sherman Business reporter, BBC News Getty Images Apple plans to invest more than $500bn (£396b...
+
+4. [8] innovation/innovation/innovation_news_3.pdf (Score: 0.4776)
+   What Apple pulling Advanced Data Protection means for you 7 hours ago Liv McMahon Technology reporter Reuters Apple has made headlines by pulling its ...
+
+5. [37] business/business/business_news_9.pdf (Score: 0.3631)
+   Apple boss says its DEI programmes may change 19 hours ago Natalie Sherman BBC News Getty Images Apple boss Tim Cook has said his company may have to ...
+
+
+Documents promoted due to user_1's profile:
+- [2] innovation/innovation/innovation_news_9.pdf
+  (Category 'innovation' is #2 in user interests)
+  (Content matches user interests: innov, ai, appl, us, invest)
+- [8] innovation/innovation/innovation_news_3.pdf
+  (Category 'innovation' is #2 in user interests)
+  (Content matches user interests: work, ai, appl, us, invest)
+
+USER_2 Personalized Results:
+----------------------------------------
+
+Top 5 matching documents:
+----------------------------------------------------------------------
+1. [37] business/business/business_news_9.pdf (Score: 0.9089)
+   Apple boss says its DEI programmes may change 19 hours ago Natalie Sherman BBC News Getty Images Apple boss Tim Cook has said his company may have to ...
+
+2. [25] technology/technology/technology_news_6.pdf (Score: 0.7790)
+   Apple boss says its DEI programmes may change 17 hours ago Natalie Sherman BBC News Getty Images Apple boss Tim Cook has said his company may have to ...
+
+3. [40] business/business/business_news_2.pdf (Score: 0.6466)
+   Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its ...
+
+4. [27] technology/technology/technology_news_3.pdf (Score: 0.5730)
+   What Apple pulling Advanced Data Protection means for you 6 hours ago Liv McMahon Technology reporter Reuters Apple has made headlines by pulling its ...
+
+5. [28] technology/technology/technology_news_13.pdf (Score: 0.5382)
+   Apple pulls data protection tool after UK government security row 4 days ago Zoe Kleinman Technology editor•@zsk Getty Images Apple is taking the unpr...
+
+
+Documents promoted due to user_2's profile:
+- [40] business/business/business_news_2.pdf
+  (Category 'business' is #1 in user interests)
+  (Content matches user interests: technolog, appl, dei, chang)
+- [27] technology/technology/technology_news_3.pdf
+  (Category 'technology' is #2 in user interests)
+  (Content matches user interests: busi, technolog, appl, dei, sharehold)
+- [28] technology/technology/technology_news_13.pdf
+  (Category 'technology' is #2 in user interests)
+  (Content matches user interests: busi, technolog, appl, dei, chang)
+
+======================================================================
+E. EVALUATING THE RECOMMENDER SYSTEM
+======================================================================
+
+Evaluating Search Performance:
+======================================================================
+
+Evaluating Query 1: 'appl dei sharehold' (Expected category: business)
+
+Top 5 matching documents:
+----------------------------------------------------------------------
+1. [37] business/business/business_news_9.pdf (Score: 0.6061)
+   Apple boss says its DEI programmes may change 19 hours ago Natalie Sherman BBC News Getty Images Apple boss Tim Cook has said his company may have to ...
+
+2. [10] innovation/innovation/innovation_news_0.pdf (Score: 0.6061)
+   Apple boss says its DEI programmes may change 19 hours ago Natalie Sherman BBC News Getty Images Apple boss Tim Cook has said his company may have to ...
+
+3. [25] technology/technology/technology_news_6.pdf (Score: 0.6061)
+   Apple boss says its DEI programmes may change 17 hours ago Natalie Sherman BBC News Getty Images Apple boss Tim Cook has said his company may have to ...
+
+4. [32] technology/technology/technology_news_0.pdf (Score: 0.3013)
+   Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its ...
+
+5. [9] innovation/innovation/innovation_news_1.pdf (Score: 0.3013)
+   Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its ...
+
+  Metrics:
+    - Results matching target category: 4/12 (33.33%)
+    - Average precision: 0.4848
+    - Average relevance score: 0.3199
+    - Precision@1: 1.0000
+    - Precision@5: 0.2000
+    - Precision@10: 0.2000
+
+Evaluating Query 2: 'ai artist album' (Expected category: innovation)
+
+Top 5 matching documents:
+----------------------------------------------------------------------
+1. [0] innovation/innovation/innovation_news_10.pdf (Score: 0.5126)
+   Artists release silent album in protest against AI using their work 1 day ago Paul Glynn Culture reporter Getty Images / Shutterstock (Le to right) A...
+
+2. [1] innovation/innovation/innovation_news_8.pdf (Score: 0.1676)
+   Major Asia bank to cut 4,000 roles as AI replaces humans 1 day ago Peter Hoskins Business reporter Getty Images Singapore's biggest bank, DBS, says it...
+
+3. [48] business/business/business_news_12.pdf (Score: 0.1676)
+   Major Asia bank to cut 4,000 roles as AI replaces humans 1 day ago Peter Hoskins Business reporter Getty Images Singapore's biggest bank, DBS, says it...
+
+4. [26] technology/technology/technology_news_7.pdf (Score: 0.0968)
+   'Amateur and dangerous': Historians weigh in on viral AI history videos 3 days ago Yasmin Rufo Entertainment reporter timetravellerpov AI-generated vi...
+
+5. [9] innovation/innovation/innovation_news_1.pdf (Score: 0.0894)
+   Apple AI tool transcribed the word 'racist' as 'Trump' 2 hours ago Imran Rahman-Jones Technology reporter Reuters Apple says it is working to fix its ...
+
+  Metrics:
+    - Results matching target category: 8/30 (26.67%)
+    - Average precision: 0.5414
+    - Average relevance score: 0.0586
+    - Precision@1: 1.0000
+    - Precision@5: 0.6000
+    - Precision@10: 0.4000
+
+Evaluating Query 3: 'code learn chang' (Expected category: technology)
+
+Top 5 matching documents:
+----------------------------------------------------------------------
+1. [21] technology/technology/technology_news_15.pdf (Score: 0.3471)
+   Learning to code 'will seriously change your life' 26 March 2021Share Save Michael Winrow Technology of Business reporter Hannah Blair Hannah Blair st...
+
+2. [10] innovation/innovation/innovation_news_0.pdf (Score: 0.0438)
+   Apple boss says its DEI programmes may change 19 hours ago Natalie Sherman BBC News Getty Images Apple boss Tim Cook has said his company may have to ...
+
+3. [25] technology/technology/technology_news_6.pdf (Score: 0.0438)
+   Apple boss says its DEI programmes may change 17 hours ago Natalie Sherman BBC News Getty Images Apple boss Tim Cook has said his company may have to ...
+
+4. [37] business/business/business_news_9.pdf (Score: 0.0438)
+   Apple boss says its DEI programmes may change 19 hours ago Natalie Sherman BBC News Getty Images Apple boss Tim Cook has said his company may have to ...
+
+5. [0] innovation/innovation/innovation_news_10.pdf (Score: 0.0363)
+   Artists release silent album in protest against AI using their work 1 day ago Paul Glynn Culture reporter Getty Images / Shutterstock (Le to right) A...
+
+  Metrics:
+    - Results matching target category: 11/30 (36.67%)
+    - Average precision: 0.4691
+    - Average relevance score: 0.0273
+    - Precision@1: 1.0000
+    - Precision@5: 0.4000
+    - Precision@10: 0.4000
+
+Evaluating Query 4: 'plan dorset use' (Expected category: travel)
+
+Top 5 matching documents:
+----------------------------------------------------------------------
+1. [52] travel/travel/travel_news_0.pdf (Score: 0.1988)
+   Farm landing strip has planning exemption refused 1 hour ago Trevor Bevins Local Democracy Reporting Service Court Farm Dorset Council refused to gran...
+
+2. [14] arts/arts/arts_news_2.pdf (Score: 0.0850)
+   Sites sought for Ukranian bombed door sculpture 3 hours ago Robert Marshall The mangled front door from a destroyed house in eastern Ukraine has a gap...
+
+3. [15] arts/arts/arts_news_6.pdf (Score: 0.0683)
+   Plan to remove theatre sign causes controversy 1 day ago Guy Henderson Local Democracy Reporting Service Google Opponents said the illuminated blue si...
+
+4. [13] arts/arts/arts_news_3.pdf (Score: 0.0277)
+   Abuse survivors' art is 'relief from a monster' 6 hours ago Sophie Parker BBC News, Wiltshire Wiltshire Council The exhibition has work on display fro...
+
+5. [20] arts/arts/arts_news_8.pdf (Score: 0.0273)
+   Westminster visit to highlight city's culture 1 day ago PA Media Hull was the UK City of Culture in 2017 Delegates from Hull are appearing at an event...
+
+  Metrics:
+    - Results matching target category: 7/59 (11.86%)
+    - Average precision: 0.3017
+    - Average relevance score: 0.0111
+    - Precision@1: 1.0000
+    - Precision@5: 0.2000
+    - Precision@10: 0.2000
+
+Evaluating Query 5: 'orlik work art' (Expected category: arts)
+
+Top 5 matching documents:
+----------------------------------------------------------------------
+1. [11] arts/arts/arts_news_0.pdf (Score: 0.4892)
+   £50k reward for 'great' artist Orlik's missing works 18 February 2025 Sophie Parker BBC News, Wiltshire Henry OrlikHomeNewsSportBusinessInnovationCult...
+
+2. [13] arts/arts/arts_news_3.pdf (Score: 0.1853)
+   Abuse survivors' art is 'relief from a monster' 6 hours ago Sophie Parker BBC News, Wiltshire Wiltshire Council The exhibition has work on display fro...
+
+3. [20] arts/arts/arts_news_8.pdf (Score: 0.0657)
+   Westminster visit to highlight city's culture 1 day ago PA Media Hull was the UK City of Culture in 2017 Delegates from Hull are appearing at an event...
+
+4. [16] arts/arts/arts_news_7.pdf (Score: 0.0442)
+   Rik Mayall mural unveiled in his hometown 1 day ago Tom Edwards BBC Hereford and WorcesterClare Lissaman BBC News, West Midlands BBC The mural feature...
+
+5. [14] arts/arts/arts_news_2.pdf (Score: 0.0366)
+   Sites sought for Ukranian bombed door sculpture 3 hours ago Robert Marshall The mangled front door from a destroyed house in eastern Ukraine has a gap...
+
+  Metrics:
+    - Results matching target category: 8/42 (19.05%)
+    - Average precision: 0.8950
+    - Average relevance score: 0.0259
+    - Precision@1: 1.0000
+    - Precision@5: 1.0000
+    - Precision@10: 0.6000
+
+Mean Average Precision (MAP): 0.5384
+Mean Precision@1: 1.0000
+Mean Precision@5: 0.4800
+Mean Precision@10: 0.3600
+
+======================================================================
+EVALUATION SUMMARY
+======================================================================
+Number of test queries: 5
+Average category precision: 25.52%
+Average relevance score: 0.0886
+Mean Average Precision (MAP): 0.5384
+Mean Precision@1: 1.0000
+Mean Precision@5: 0.4800
+Mean Precision@10: 0.3600
+
+Per-Query Evaluation Metrics:
+------------------------------------------------------------------------------------------
+Query ID  Query                         Precision   Avg Precision  Relevance   P@1     P@5     P@10
+------------------------------------------------------------------------------------------
+Q1        appl dei sharehold            33.33%0.48480.31991.0000  0.2000  0.2000
+Q2        ai artist album               26.67%0.54140.05861.0000  0.6000  0.4000
+Q3        code learn chang              36.67%0.46910.02731.0000  0.4000  0.4000
+Q4        plan dorset use               11.86%0.30170.01111.0000  0.2000  0.2000
+Q5        orlik work art                19.05%0.89500.02591.0000  1.0000  0.6000
+
+<Figure size 1200x600 with 1 Axes>
+<Figure size 1000x600 with 1 Axes>
+<Figure size 1000x600 with 1 Axes>
+
+MAP Evaluation Table:
+============================================================
+Method                        MAP Score      Notes
+------------------------------------------------------------
+Base Recommender System       0.5384
+Without Tolerant Retrieval    0.5131Using exact matching only
+With Personalization (user_1) 0.3850Using user profile
+============================================================
+
+User Search Histories:
+============================================================
+
+user_1:
+  1. orlik work art
+  2. theatr northamptonshir derngat
+  3. wiltshir abus art
+  4. ai artist album
+  5. ai bank singapor
+  6. appl us invest
+  7. plan dorset use
+  8. said bodi qatar
+  9. travel permit uk
+
+user_2:
+  1. appl dei sharehold
+  2. worker tax young
+  3. bp oil ga
+  4. code learn chang
+  5. univers surrey day
+  6. cancer scan nuclear
+
+======================================================================
+AUTOMATED SEARCH DEMONSTRATION
+======================================================================
+
+Demonstrating search with query: 'python'
+
+Non-personalized search results:
+
+Top 3 matching documents:
+----------------------------------------------------------------------
+1. [56] travel/travel/travel_news_6.pdf (Score: 0.3956)
+   Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
+
+2. [57] travel/travel/travel_news_5.pdf (Score: 0.1966)
+   Park warning after escaped python sightings 13 August 2024Share Save Fosiya Ismail BBC News, West Midlands Getty Images Park visitors were urged not t...
+
+3. [21] technology/technology/technology_news_15.pdf (Score: 0.0505)
+   Learning to code 'will seriously change your life' 26 March 2021Share Save Michael Winrow Technology of Business reporter Hannah Blair Hannah Blair st...
+
+
+Personalized search results for user_1:
+----------------------------------------
+
+Top 3 matching documents:
+----------------------------------------------------------------------
+1. [56] travel/travel/travel_news_6.pdf (Score: 0.3929)
+   Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
+
+2. [57] travel/travel/travel_news_5.pdf (Score: 0.2963)
+   Park warning after escaped python sightings 13 August 2024Share Save Fosiya Ismail BBC News, West Midlands Getty Images Park visitors were urged not t...
+
+3. [21] technology/technology/technology_news_15.pdf (Score: 0.0881)
+   Learning to code 'will seriously change your life' 26 March 2021Share Save Michael Winrow Technology of Business reporter Hannah Blair Hannah Blair st...
+
+
+Personalized search results for user_2:
+----------------------------------------
+
+Top 3 matching documents:
+----------------------------------------------------------------------
+1. [21] technology/technology/technology_news_15.pdf (Score: 0.3856)
+   Learning to code 'will seriously change your life' 26 March 2021Share Save Michael Winrow Technology of Business reporter Hannah Blair Hannah Blair st...
+
+2. [56] travel/travel/travel_news_6.pdf (Score: 0.2263)
+   Royal python found abandoned outside block of flats 11 February 2025Share Save Lewis Adams BBC News, Essex RSPCA Royal pythons originate from West Afr...
+
+3. [57] travel/travel/travel_news_5.pdf (Score: 0.1249)
+   Park warning after escaped python sightings 13 August 2024Share Save Fosiya Ismail BBC News, West Midlands Getty Images Park visitors were urged not t...
+
